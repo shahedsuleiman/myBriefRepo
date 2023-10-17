@@ -19,6 +19,9 @@ The InklyReads project is maintained by the following team members:
 - [BasharAlhoushan](https://github.com/BasharAlhoushan) 
 - [Al-Howari95](https://github.com/Al-Howari95)
 
+## our-organization
+- [github-org](https://github.com/InklyReads/InklyReads)
+
 ## Wireframes And Mockup
 
 You can access the initial Wireframes And Mockup of the website's user interface through the following link:
@@ -27,3 +30,6 @@ You can access the initial Wireframes And Mockup of the website's user interface
 
 ## live URL
 - [live URL]([insert link to wireframe here]
+
+## Link to Organization
+[https://github.com/InklyReads/InklyReads]
