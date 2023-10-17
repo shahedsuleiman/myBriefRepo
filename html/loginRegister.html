@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>InklyReads</title>
+    <link rel="stylesheet" href="html/catigories.html" />
+    <link rel="stylesheet" href="html/books.html" />
+    <link rel="stylesheet" href="html/Contact-us.html" />
+    <link rel="stylesheet" href="html/details.html" />
+    <link rel="stylesheet" href="html/loginRegister.html" />
+    <link rel="stylesheet" href="html/myProfile.html" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <nav>
+      <a href="index.html" class="name">
+        <i class="fa-solid fa-book"></i>
+        InklyReads
+      </a>
+      <div class="group">
+        <ul class="navigation">
+          <!-- <li><a href="#">Home</a></li> -->
+          <li><a href="#aboutus">About</a></li>
+          <li><a href="html/contact.html">Contact</a></li>
+          <li><a href="#catigoris">catigories</a></li>
+        </ul>
+        <div class="search">
+          <span class="icon">
+            <i class="fa-solid fa-magnifying-glass searchBtn"></i>
+            <i class="fa-solid fa-x fa-2xs closeBtn"></i>
+          </span>
+        </div>
+      </div>
+      <i class="fa-solid fa-bars menuToggle"></i>
+      <a href="html/loginRegister.html" class="person">
+        <i class="fa-regular fa-user"></i
+      ></a>
+      <form class="logoutIcon" id="signoutForm">
+        <button type="submit" id="signoutButton">
+          <i class="fa-solid fa-up-right-from-square"></i>
+        </button>
+      </form>
+      <div class="searchBox">
+        <form id="searchForm">
+          <input
+            id="search"
+            name="search"
+            type="text"
+            placeholder="Search here . . ."
+          />
+        </form>
+      </div>
+    </nav>
+
+    <!-- hero section start -->
+    <div class="slider">
+		<!-- fade css -->
+		<div class="myslide fade">
+			<div class="txt">
+				<h1> WELCOME <span id="userNameWelcome"></span></h1>
+				<p>We're thrilled to have you here at Inkly Reads, where the pages of countless <br> stories await your exploration.
+					Whether you're an avid reader, a curious wanderer, or a literary adventurer, this is the place where words come alive.</p>
+			</div>
+			<img class="heroImage" src="/assets/image/olga-tutunaru-plbb7pkEjkQ-unsplash.jpg" style="width: 100%; height: 100%; opacity:0.6;">
+		</div>
+		
+		<div class="myslide fade">
+			<div class="txt">
+				<h1>HISTORY BOOK</h1>
+				<p>We have collections of the oldest history books in the world</p>
+			</div>
+			<img class="heroImage" src="/assets/image/chuttersnap-Zf64Osndqvc-unsplash.jpg" style="width: 100%; height: 100%;  opacity:0.6;">
+		</div>
+		
+		<div class="myslide fade">
+			<div class="txt">
+				<h1>SINCE</h1>
+				<p>
+					We have collections of the latest
+					 educational books from various types of science
+				</p>
+			</div>
+			<img class="heroImage" src="/assets/image/gabriel-sollmann-Y7d265_7i08-unsplash.jpg" style="width: 100%; height: 100%;  opacity:0.6;">
+		</div>
+		
+		<div class="myslide fade">
+			<div class="txt">
+				<h1>STORY</h1>
+				<p>Web Devoloper<br>Subscribe To My Channel For More Videos</p>
+			</div>
+			<img class="heroImage" src="/assets/image/nick-fewings-f2Bi-VBs71M-unsplash.jpg" style="width: 100%; height: 100%; opacity:0.6;">
+		</div>
+		
+		<div class="myslide fade">
+			<div class="txt">
+				<h1>ECONOMIC</h1>
+				<p>Web Devoloper<br>Subscribe To My Channel For More Videos</p>
+			</div>
+			<img class="heroImage" src="/assets/image/ryunosuke-kikuno-FKqxZ58bVjU-unsplash.jpg" style="width: 100%; height: 100%; opacity:0.6;">
+		</div>
+		<!-- /fade css -->
+		
+		<!-- onclick js -->
+		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  		<a class="next" onclick="plusSlides(1)">&#10095;</a>
+		
+		<div class="dotsbox" style="text-align:center">
+			<span class="dot" onclick="currentSlide(1)"></span>
+			<span class="dot" onclick="currentSlide(2)"></span>
+			<span class="dot" onclick="currentSlide(3)"></span>
+			<span class="dot" onclick="currentSlide(4)"></span>
+			<span class="dot" onclick="currentSlide(5)"></span>
+		</div>
+		<!-- /onclick js -->
+	</div>
+
+	<!-- hero section end -->
+
+
+
+  <!-- top rated start -->
+
+     <div class="two alt-two">
+      <h1 class="topRateH1">TOP RATED <span></span></h1>
+    </div>
+  <section class="toprated">
+    
+    <!-- <div class="two alt-two">
+      <h1 class="topRateH1">TOP RATED <span></span></h1>
+    </div> -->
+
+    <br><br>
+
+    <div class="carousel-container">
+
+      <ul class="cards">
+
+      </ul>
+
+    </div>
+</section>
+<!-- top rated end -->
+
+
+  <!-- Catigorise start -->
+  <div id="catigoris" class="two alt-two">
+    <h1 class="Catigoriseh1">Explore Book Categories<span></span></h1>
+  </div>
+ 
+    <section id="Main">
+      
+    <div class="record All" id = "Science" onclick = filterCategory(this)>
+        <div class="record-arrow">
+          <!-- <img  id= "img_recored"src="https://static4.depositphotos.com/1005222/371/i/450/depositphotos_3717368-Back-to-School.jpg"> -->
+        </div>
+        <div id="record1" class="record-display">
+        </div>
+        <div class="record-desc">
+          <h1>Science</h1>
+          <p>Whether you're a science aficionado, a student, or simply inquisitive about the natural world, this book serves as your gateway to comprehending the fundamental principles governing our existence.</p>
+        </div>
+    </div>
+     <div class="record All" id="History" onclick = filterCategory(this)>
+        <div class="record-arrow">
+          <!-- <img src="http://www.portalguard.com/images/icons/right-arrow.png"> -->
+        </div>
+        <div id="record2" class="record2-display">
+        </div>
+        <div class="record-desc">
+          <h1>History</h1>
+          <p>Step back in time and unravel the rich tapestry of human history with our captivating history book. From ancient civilizations to pivotal moments in modern history</p>
+        </div>
+    </div>
+     <div class="record All" id="Economic" onclick = filterCategory(this)>
+        <div class="record-arrow">
+          <img src="">
+        </div>
+        <div id="record3" class="record3-display">
+          
+        </div>
+        <div class="record-desc">
+          <h1>Economic</h1>
+          <p>Discover the key insights into the world of economics with our latest book. Dive into the complex and fascinating realm of economic theories, policies, and real-world applications. Whether you're a student, a business professional, or just curious about how economies function</p>
+        </div>
+     </div>
+     <div class="record All" id="Story" onclick = filterCategory(this)>
+        <div class="record-arrow">
+          <!-- <img src="http://www.portalguard.com/images/icons/right-arrow.png"> -->
+        </div>
+        <div id="record4" class="record4-display">
+        </div>
+        <div class="record-desc">
+          <h1>Story</h1>
+          <p>Embark on a magical adventure with our enchanting storybook. Immerse yourself in a world of imagination and wonder as you journey through captivating tales and explore new realms</p>
+
+        </div>
+     </div>
+     <!-- </div> -->
+     <!-- <div class="tagline">Article Card Animation</div>, initial-scale=1.0"> -->
+    </section>
+    <div class="frame">
+        <button class="bn632-hover bn28" id="button">VIEW MORE</button>
+      </div>
+
+  <!-- Catigorise end -->
+
+
+
+
+
+
+
+  <!-- new section  start -->
+  <div id="large-th">
+    <div class="container">
+
+      <div class="two alt-two">
+        <h1 class="newRelaseh1">New Release Books<span></span> </h1>
+      </div>
+      <br>
+      <!-- <div class="choose">
+        <a href="#list-th"><i class="fa fa-th-list" aria-hidden="true"></i></a>
+        <a href="#large-th"><i class="fa fa-th-large" aria-hidden="true"></i></a>
+      </div> -->
+      <div id="list-th">
+        <div class="book read">
+          <div class="cover">
+            <img src="https://s-media-cache-ak0.pinimg.com/564x/f9/8e/2d/f98e2d661445620266c0855d418aab71.jpg">
+
+          </div>
+
+          <div class="description">
+            <p class="title"> Frankenstein<br>
+
+              <span class="author">Mary Shelley</span>
+              <h6>${year}</h6>
+            </p>
+
+          </div>
+        </div>
+        <div class="book read">
+          <div class="cover">
+            <img src="https://alysbcohen.files.wordpress.com/2015/01/little-princess-book-cover.jpg">
+          </div>
+<div class="description">
+            <p class="title">A Little Princess<br>
+              <span class="author">Frances Hodgson Burnett</span></p>
+          </div>
+        </div>
+        <div class="book read">
+          <div class="cover">
+            <img src="http://www.publishersweekly.com/images/data/ARTICLE_PHOTO/photo/000/028/28129-1.JPG">
+          </div>
+          <div class="description">
+            <p class="title">Roughing It</br>
+              <span class="author">Mark Twain</span></p>
+          </div>
+        </div>
+        <div class="book read">
+          <div class="cover">
+            <img src="http://talkingwriting.com//sites/default/files/Bird-by-Bird-image1.jpg">
+          </div>
+          <div class="description">
+            <p class="title">Bird By Bird</br>
+              <span class="author">Anne Lamott</span></p>
+          </div>
+        </div>
+  <div class="book read">
+          <div class="cover">
+            <img src="http://d.gr-assets.com/books/1414348859l/23209971.jpg">
+          </div>
+          <div class="description">
+            <p class="title">Girl at War</br>
+              <span class="author">Sara Novic</span></p>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+  <!-- new section end   -->
+
+
+
+
+
+  
+
+  
+      <!-- About Section -->
+      <div class="about" id="aboutus">
+        <div class="inner-section">
+            <h1>About Us</h1>
+            <p class="text">
+                Dive into the world of literature and discover a treasure trove of books across genres, from timeless classics to contemporary bestsellers. We're here to be your guide, helping you find your next great read and providing insightful reviews, author spotlights, and reading recommendations.
+
+                Our mission is to ignite your passion for reading and provide a haven for all things book-related. So, grab your favorite beverage, cozy up in your reading nook, and let the journey through these pages begin.
+            </p>
+           
+        </div>
+    </div>
+    <!-- About section end -->
+
+
+    <!-- footer start -->
+<footer>
+  <div class="footer-info">
+    <div class="footer-whidth-about">
+      <h2>Inkly Reads</h2>
+      <p>our collection has something for every reader. Explore, 
+        read, and embark on endless literary journeys with you</p>
+        <div class="sochial-medea">
+          <ul>
+          <li><a href="https://www.facebook.com/people/Inkly-Reads/pfbid02n4CRZAdi7GytD45BvB4qCdsaxP2ihGjYhcMDqDJ8bmr1RbvuiCJpWkqqSCeVYM8zl/"><i class="fa-brands fa-facebook-f"></i></a></li>
+          <li><a href="https://twitter.com/i/flow/login?redirect_after_login=%2FInklyReads"><i class="fa-brands fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+          </ul>
+        </div>
+    </div>
+    <div class="footer-whidth-link">
+      <h2>Quik links</h2>
+      <ul>
+        <li><a href="#aboutus">About</a></li>
+        <li><a href="#catigoris">Catigore</a></li>
+        <li><a href="html/contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-whidth-contact">
+      <h2>Contact</h2>
+      <ul>
+        <li>
+          <span> <i class="fa fa-map-marker"></i></span>
+          <p>Jordan Amman</p>
+        </li>
+        <li>
+          <span> <i class="fa fa-envelope"></i></span>
+          <a href="#">inkiyreads@gmail.com</a>
+        </li>
+        <li>
+          <span> <i class="fa fa-phone"></i></span>
+          <p>000 123 456</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="copy-right">
+    <p>&copy,Inkly Reads . 2023 </p>
+  </div>
+</footer>
+<!-- footer end -->
+
+<script>
+  let UserCredentials = JSON.parse(
+    sessionStorage.getItem("user-credentials")
+  );
+  let UserInfo = JSON.parse(sessionStorage.getItem("user-info"));
+
+  let Welcome = document.getElementById("userNameWelcome");
+
+
+
+  let SignoutButton = document.getElementById("signoutButton");
+
+  let Signout = () => {
+    sessionStorage.removeItem("user-credentials");
+    sessionStorage.removeItem("user-info");
+    window.location.href = "html/loginRegister.html";
+  };
+
+  let CheckCredentials = () => {
+    if (!sessionStorage.getItem("user-credentials")) {
+      window.location.href = "html/loginRegister.html";
+    } else {
+      Welcome.innerHTML = `${UserInfo.firstName}`;
+    } 
+  };
+  window.addEventListener("load", CheckCredentials);
+  SignoutButton.addEventListener("click", Signout);
+</script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

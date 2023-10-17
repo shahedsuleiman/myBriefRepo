@@ -1,0 +1,334 @@
+
+
+body {
+    background-color: #F5F6F8;
+  }
+
+  /* catigories start */
+
+  #Main {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 200px;
+    column-gap: 6px;
+}
+
+h1 {
+  position: relative;
+  padding: 0;
+  margin: 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 40px;
+  color: #080808;
+  -webkit-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+}
+h1 span {
+  display: block;
+  font-size: 0.5em;
+  line-height: 1.3;
+}
+.two h1 {
+  text-transform: capitalize;
+}
+.two h1:before {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 60px;
+  height: 2px;
+  content: "";
+  background-color: #c50000;
+}
+
+.two h1 span {
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  line-height: 3em;
+  padding-left: 0.25em;
+  color: rgba(0, 0, 0, 0.4);
+  padding-bottom: 10px;
+}
+.alt-two h1 {
+  text-align:center;
+}
+.alt-two h1:before {
+  left:50%; margin-left:-30px;
+}
+
+h1 {
+    margin-bottom: -165px;
+    margin-left: 8px;
+}
+  
+  .record_wrap {
+    width: 90%;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .record {
+    position: relative;
+    width: 30%;
+    height: 20vw;
+    overflow: hidden;
+    border:2px solid #ccc;
+    background-color: #fff;
+    cursor: pointer;
+    transition: 300ms;
+  }
+  
+  .record:hover {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .record-arrow {
+    position: absolute;
+    padding: 3%;
+    transform: translateX(10%);
+    opacity: 0;
+    transition: all 300ms ease-in-out;
+  }
+  
+  .record-arrow img {
+    width: 8%;
+    height: 8%;
+  }
+  
+  /* .record-arrow {
+    background-image: url("http://www.portalguard.com/images/icons/right-arrow.png");
+  }
+  
+  .record:hover .record-arrow {
+    transform: translateX(10%);
+    opacity: 1;
+  } */
+  
+  .record-display {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background-image: url("https://static4.depositphotos.com/1005222/371/i/450/depositphotos_3717368-Back-to-School.jpg");
+    background-size: cover;
+    background-position: center center;
+  }
+  
+  .record2-display {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background-image: url("https://static.toiimg.com/photo/msid-91006178/91006178.jpg");
+    background-size: cover;
+    background-position: center center;
+
+  }
+
+  /* .record-desc2 {
+    margin: 20px 0 0 10px;
+    opacity: 0;
+    transition: 400ms ease-in-out 190ms;
+  } */
+  .record:hover .record2-display {
+    height: 20%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  /* .record-desc2 {
+    margin: 20px 0 0 10px;
+    opacity: 0;
+    transition: 400ms ease-in-out 190ms;
+  } */
+
+  .record3-display {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background-image: url("https://miro.medium.com/v2/resize:fit:867/1*KCngRvnuGEaWJN3Q14Mp-w.jpeg");
+    background-size: cover;
+    background-position: center center;
+
+  }
+
+  /* .record-desc2 {
+    margin: 20px 0 0 10px;
+    opacity: 0;
+    transition: 400ms ease-in-out 190ms;
+  } */
+
+  .record:hover .record3-display {
+    height: 20%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  .record4-display {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background-image: url("https://media.istockphoto.com/id/1146007104/photo/open-book-with-hand-drawn-landscape.jpg?s=612x612&w=0&k=20&c=XZGJWGqjX41Tow4y86cnbJjVfh9I5kKSNGB4rPX4aHk=");
+    background-size: cover;
+    background-position: center center;
+
+  }
+
+  /* .record-desc2 {
+    margin: 20px 0 0 10px;
+    opacity: 0;
+    transition: 400ms ease-in-out 190ms;
+  } */
+
+
+  .record:hover .record4-display {
+    height: 20%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  .record:hover .record-display {
+    height: 20%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .record-desc {
+    margin: 20px 0 0 10px;
+    opacity: 0;
+    transition: 400ms ease-in-out 190ms;
+  }
+  
+   .record-desc h1 {
+    margin: 5px 0;
+    font-size: 1.3em;
+    font-weight: 700;
+  } 
+  
+   .record-desc p {
+    font-size: 0.75em;
+    line-height: 1.4em;
+    color: #666;
+  } 
+  
+  #record1 {
+    transition: height 500ms cubic-bezier(0.54, 0.21, 0.18, 1.35);
+  }
+  
+  #record2 {
+    transition: height 500ms cubic-bezier(0.54, 0.21, 0.18, 1.35);
+  }
+  
+  #record3 {
+    transition: height 500ms cubic-bezier(0.54, 0.21, 0.18, 1.35);
+  }
+  #record4 {
+    transition: height 500ms cubic-bezier(0.54, 0.21, 0.18, 1.35);
+  }
+  
+  .record:hover .record-desc {
+    opacity: 1;
+  }
+  
+  .tagline {
+    margin: 50px 0;
+    text-align: center;
+    color: green;
+  }
+  
+  .bn632-hover {
+    width: 160px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align: center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    transition: all 0.4s ease-in-out;
+  }
+  
+  .bn632-hover:hover {
+    background-position: 100% 0;
+    transition: all 0.4s ease-in-out;
+  }
+  
+  .bn632-hover:focus {
+    outline: none;
+  }
+  
+  .bn632-hover.bn28 {
+    background-image: linear-gradient(
+      to right,
+      #eb3941,
+      #f15e64,
+      #e14e53,
+      #e2373f
+    );
+    box-shadow: 0 5px 15px rgba(242, 97, 103, 0.4);
+  }
+  
+  .frame {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+  }
+  
+
+
+   /* @media only screen and  (max-width: 480px){
+
+    # {  
+     
+    
+     }
+    }
+
+
+    @media only screen and (min-width: 481px) and (max-width: 768px) {
+
+   
+      } */
+
+
+      @media only screen and (max-width: 768px) {
+        #Main {
+          flex-direction: column;
+        }
+      
+        .record {
+          width: 100%;
+          height: 50vw;
+           /* Adjust the width for smaller screens */
+
+<<<<<<< HEAD
+    /* @media only screen and  (min-width: 769px) and (max-width: 1279px) {
+
+   .bn632-hover {
+    width: 90px;
+    font-size: 10px;
+    font-weight: 600;
+    height: 30px;
+   
+  }
+       
+        
+         } */
+
+       /* h1 {
+        font-size: 25px;
+       } */
+
+       
+=======
+        }
+      }
+
+      /* catigories end*/
+
+>>>>>>> cf6ba5687d0da90f0e8df7b74b9883d9baadc7f3
+      
+      

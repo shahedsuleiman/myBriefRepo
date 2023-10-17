@@ -1,0 +1,264 @@
+#background {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #dee1e2;
+  }
+  
+  .form-box {
+    width: 380px;
+    height: 480px;
+    position: relative;
+    margin: 125px auto;
+    background: #fff;
+    padding: 5px;
+    overflow: hidden;
+  }
+  
+  .welcome {
+    text-align: center;
+    font-size: 14px;
+    color: #000000;
+    margin-top: 5%;
+  }
+  
+  .button-box {
+    width: 220px;
+    margin: 5% auto 0;
+    position: relative;
+    box-shadow: 0 0 20px 9px #ff61241f;
+    border-radius: 30px;
+  }
+  
+  .toggle-btn {
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+  }
+  
+  #divMove {
+    top: 0;
+    left: 110px;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: linear-gradient(to right, #ff105f, #ffad06);
+    border-radius: 30px;
+    transition: 0.5s;
+  }
+  
+  .input-group {
+    top: 97px;
+    position: absolute;
+    width: 280px;
+    transition: 0.5s;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px 10px;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+  }
+  
+  .submit-btn {
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, #ff105f, #ffad06);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+  }
+  
+  .check-box {
+    margin: 8px 6px 26px 0;
+  }
+  
+  span {
+    color: #777;
+    font-size: 12px;
+    bottom: 65px;
+    position: absolute;
+    cursor: pointer;
+  }
+  
+  #loginForm {
+    left: -400px;
+  }
+  
+  #registerForm {
+    left: 50px;
+  }
+  
+  .class-btn {
+    width: 130px;
+    position: relative;
+    height: 40px;
+    border-radius: 10px;
+    line-height: 42px;
+    padding: 0;
+    border: none;
+    background: rgb(255, 27, 0);
+    background: linear-gradient(
+      0deg,
+      rgba(255, 27, 0, 1) 0%,
+      rgba(251, 75, 2, 1) 100%
+    );
+  }
+  
+  .margin-top {
+    margin-top: 20px;
+  }
+  .class-btn:hover {
+    color: #f0094a;
+    background: transparent;
+    box-shadow: none;
+  }
+  .class-btn:before,
+  .class-btn:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 2px;
+    width: 0;
+    background: #f0094a;
+    box-shadow: -1px -1px 5px 0px #fff, 7px 7px 20px 0px #0003,
+      4px 4px 5px 0px #0002;
+    transition: 400ms ease all;
+  }
+  .class-btn:after {
+    right: inherit;
+    top: inherit;
+    left: 0;
+    bottom: 0;
+  }
+  .class-btn:hover:before,
+  .class-btn:hover:after {
+    width: 100%;
+    transition: 800ms ease all;
+  }
+  
+  /* Terms And Conditions Start */
+  
+  @import url("https://fonts.googleapis.com/css2?family=Martian+Mono:wght@400;600&family=Montserrat&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+  
+  section#termAndConditions {
+    font-family: "Montserrat";
+    display: none;
+  }
+  
+  .terms-box {
+    max-width: 500px;
+    background-color: #111;
+    color: #fff;
+    font-family: "Montserrat";
+    padding: 60px 30px;
+    position: absolute;
+    left: calc(50% - 250px);
+    top: 15%;
+    display: block;
+  }
+  
+  .terms-text {
+    padding: 0 20px;
+    height: 400px;
+    overflow: auto;
+    font-size: 14px;
+    font-weight: 500;
+    color: #f1f1f1;
+  }
+  
+  .terms-text::-webkit-scrollbar {
+    width: 2px;
+    background-color: #282828;
+  }
+  
+  .terms-text::-webkit-scrollbar-thumb {
+    background-color: #d13639;
+  }
+  
+  .terms-text a {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .terms-text h2 {
+    text-transform: uppercase;
+  }
+  
+  .terms-box h4 {
+    font-size: 13px;
+    text-align: center;
+    padding: 0 40px;
+  }
+  
+  .terms-box h4 span {
+    color: #d13639;
+  }
+  
+  .registration {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+  }
+  
+  .class-btn-term {
+    width: 130px;
+    font-weight: 500;
+    position: relative;
+    height: 40px;
+    border-radius: 10px;
+    line-height: 42px;
+    padding: 0;
+    border: none;
+    background-color: #f1f1f1;
+  }
+  
+  .class-btn-term:hover {
+    color: #f0094a;
+    background: transparent;
+    box-shadow: none;
+  }
+  .class-btn-term:before,
+  .class-btn-term:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 2px;
+    width: 0;
+    background: #fff;
+    box-shadow: -1px -1px 5px 0px #fff, 7px 7px 20px 0px #0003,
+      4px 4px 5px 0px #0002;
+    transition: 400ms ease all;
+  }
+  .class-btn-term:after {
+    right: inherit;
+    top: inherit;
+    left: 0;
+    bottom: 0;
+  }
+  .class-btn-term:hover:before,
+  .class-btn-term:hover:after {
+    width: 100%;
+    transition: 800ms ease all;
+  }
+  
+  /* Terms And Conditions End */
