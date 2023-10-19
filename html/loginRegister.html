@@ -3,388 +3,373 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <title>InklyReads</title>
-    <link rel="stylesheet" href="html/catigories.html" />
-    <link rel="stylesheet" href="html/books.html" />
-    <link rel="stylesheet" href="html/Contact-us.html" />
-    <link rel="stylesheet" href="html/details.html" />
-    <link rel="stylesheet" href="html/loginRegister.html" />
-    <link rel="stylesheet" href="html/myProfile.html" />
+    <title>login & Register</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
     />
-    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" href="../css/loginAndRegister.css" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../index.html" />
   </head>
   <body>
-    <nav>
-      <a href="index.html" class="name">
-        <i class="fa-solid fa-book"></i>
-        InklyReads
-      </a>
-      <div class="group">
-        <ul class="navigation">
-          <!-- <li><a href="#">Home</a></li> -->
-          <li><a href="#aboutus">About</a></li>
-          <li><a href="html/contact.html">Contact</a></li>
-          <li><a href="#catigoris">catigories</a></li>
-        </ul>
-        <div class="search">
-          <span class="icon">
-            <i class="fa-solid fa-magnifying-glass searchBtn"></i>
-            <i class="fa-solid fa-x fa-2xs closeBtn"></i>
-          </span>
+    <header>
+      <nav>
+        <a href="../index.html" class="name">
+          <i class="fa-solid fa-book"></i>
+          InklyReads
+        </a>
+        <div class="group">
+          <ul class="navigation">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="/index.html">About</a></li>
+            <li><a href="/html/contact.html">Contact</a></li>
+            <li><a href="/index.html">catigories</a></li>
+          </ul>
+          <div class="search">
+            <span class="icon">
+              <i class="fa-solid fa-magnifying-glass searchBtn"></i>
+              <i class="fa-solid fa-x fa-2xs closeBtn"></i>
+            </span>
+          </div>
         </div>
-      </div>
-      <i class="fa-solid fa-bars menuToggle"></i>
-      <a href="html/loginRegister.html" class="person">
-        <i class="fa-regular fa-user"></i
-      ></a>
-      <form class="logoutIcon" id="signoutForm">
-        <button type="submit" id="signoutButton">
-          <i class="fa-solid fa-up-right-from-square"></i>
-        </button>
-      </form>
-      <div class="searchBox">
-        <form id="searchForm">
+        <i class="fa-solid fa-bars menuToggle"></i>
+        <a href="#" class="person"><i class="fa-regular fa-user"></i></a>
+        <div class="searchBox">
+          <input type="text" placeholder="Search here . . ." />
+        </div>
+      </nav>
+    </header>
+    <section id="background">
+      <div class="form-box">
+        <p class="welcome">Welcome to InklyReads!</p>
+        <div class="button-box">
+          <div id="divMove"></div>
+          <button type="button" class="toggle-btn" onclick="loginToggle()">
+            Log In
+          </button>
+          <button type="button" class="toggle-btn" onclick="registerToggle()">
+            Register
+          </button>
+        </div>
+        <form id="loginForm" class="input-group">
           <input
-            id="search"
-            name="search"
-            type="text"
-            placeholder="Search here . . ."
+            type="email"
+            class="input-field"
+            id="emailLog"
+            placeholder="User Email"
+            required
           />
+          <input
+            type="password"
+            class="input-field"
+            id="passwordLogin"
+            placeholder="Your Password"
+            required
+          />
+          <button
+            id="loginId"
+            name="loginId"
+            type="submit"
+            class="submit-btn class-btn margin-top"
+            onclick=""
+          >
+            Log in
+          </button>
+        </form>
+        <!-- signup -->
+
+        <form id="registerForm" class="input-group">
+          <input
+            type="text"
+            placeholder="First Name"
+            name="farstName"
+            class="input-field"
+            required
+          />
+          <input
+            type="text"
+            class="input-field"
+            placeholder="Last Name"
+            name="lastName"
+            required
+          />
+          <input
+            type="email"
+            class="input-field"
+            placeholder="Email"
+            name="email"
+            required
+          />
+          <input
+            type="password"
+            placeholder="Password"
+            name="password"
+            class="input-field"
+            required
+          />
+          <input
+            type="text"
+            class="input-field"
+            placeholder="Your Address"
+            name="address"
+            required
+          />
+          <input
+            type="checkbox"
+            class="check-box"
+            name="agree"
+            name="termsAccept"
+          />
+          <span onclick="showTerm()" class="classTermAndConditions"
+            >I agree to the terms & conditions.</span
+          >
+          <button type="click" class="submit-btn class-btn">Register</button>
         </form>
       </div>
-    </nav>
-
-    <!-- hero section start -->
-    <div class="slider">
-		<!-- fade css -->
-		<div class="myslide fade">
-			<div class="txt">
-				<h1> WELCOME <span id="userNameWelcome"></span></h1>
-				<p>We're thrilled to have you here at Inkly Reads, where the pages of countless <br> stories await your exploration.
-					Whether you're an avid reader, a curious wanderer, or a literary adventurer, this is the place where words come alive.</p>
-			</div>
-			<img class="heroImage" src="/assets/image/olga-tutunaru-plbb7pkEjkQ-unsplash.jpg" style="width: 100%; height: 100%; opacity:0.6;">
-		</div>
-		
-		<div class="myslide fade">
-			<div class="txt">
-				<h1>HISTORY BOOK</h1>
-				<p>We have collections of the oldest history books in the world</p>
-			</div>
-			<img class="heroImage" src="/assets/image/chuttersnap-Zf64Osndqvc-unsplash.jpg" style="width: 100%; height: 100%;  opacity:0.6;">
-		</div>
-		
-		<div class="myslide fade">
-			<div class="txt">
-				<h1>SINCE</h1>
-				<p>
-					We have collections of the latest
-					 educational books from various types of science
-				</p>
-			</div>
-			<img class="heroImage" src="/assets/image/gabriel-sollmann-Y7d265_7i08-unsplash.jpg" style="width: 100%; height: 100%;  opacity:0.6;">
-		</div>
-		
-		<div class="myslide fade">
-			<div class="txt">
-				<h1>STORY</h1>
-				<p>Web Devoloper<br>Subscribe To My Channel For More Videos</p>
-			</div>
-			<img class="heroImage" src="/assets/image/nick-fewings-f2Bi-VBs71M-unsplash.jpg" style="width: 100%; height: 100%; opacity:0.6;">
-		</div>
-		
-		<div class="myslide fade">
-			<div class="txt">
-				<h1>ECONOMIC</h1>
-				<p>Web Devoloper<br>Subscribe To My Channel For More Videos</p>
-			</div>
-			<img class="heroImage" src="/assets/image/ryunosuke-kikuno-FKqxZ58bVjU-unsplash.jpg" style="width: 100%; height: 100%; opacity:0.6;">
-		</div>
-		<!-- /fade css -->
-		
-		<!-- onclick js -->
-		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  		<a class="next" onclick="plusSlides(1)">&#10095;</a>
-		
-		<div class="dotsbox" style="text-align:center">
-			<span class="dot" onclick="currentSlide(1)"></span>
-			<span class="dot" onclick="currentSlide(2)"></span>
-			<span class="dot" onclick="currentSlide(3)"></span>
-			<span class="dot" onclick="currentSlide(4)"></span>
-			<span class="dot" onclick="currentSlide(5)"></span>
-		</div>
-		<!-- /onclick js -->
-	</div>
-
-	<!-- hero section end -->
-
-
-
-  <!-- top rated start -->
-
-     <div class="two alt-two">
-      <h1 class="topRateH1">TOP RATED <span></span></h1>
-    </div>
-  <section class="toprated">
-    
-    <!-- <div class="two alt-two">
-      <h1 class="topRateH1">TOP RATED <span></span></h1>
-    </div> -->
-
-    <br><br>
-
-    <div class="carousel-container">
-
-      <ul class="cards">
-
-      </ul>
-
-    </div>
-</section>
-<!-- top rated end -->
-
-
-  <!-- Catigorise start -->
-  <div id="catigoris" class="two alt-two">
-    <h1 class="Catigoriseh1">Explore Book Categories<span></span></h1>
-  </div>
- 
-    <section id="Main">
-      
-    <div class="record All" id = "Science" onclick = filterCategory(this)>
-        <div class="record-arrow">
-          <!-- <img  id= "img_recored"src="https://static4.depositphotos.com/1005222/371/i/450/depositphotos_3717368-Back-to-School.jpg"> -->
-        </div>
-        <div id="record1" class="record-display">
-        </div>
-        <div class="record-desc">
-          <h1>Science</h1>
-          <p>Whether you're a science aficionado, a student, or simply inquisitive about the natural world, this book serves as your gateway to comprehending the fundamental principles governing our existence.</p>
-        </div>
-    </div>
-     <div class="record All" id="History" onclick = filterCategory(this)>
-        <div class="record-arrow">
-          <!-- <img src="http://www.portalguard.com/images/icons/right-arrow.png"> -->
-        </div>
-        <div id="record2" class="record2-display">
-        </div>
-        <div class="record-desc">
-          <h1>History</h1>
-          <p>Step back in time and unravel the rich tapestry of human history with our captivating history book. From ancient civilizations to pivotal moments in modern history</p>
-        </div>
-    </div>
-     <div class="record All" id="Economic" onclick = filterCategory(this)>
-        <div class="record-arrow">
-          <img src="">
-        </div>
-        <div id="record3" class="record3-display">
-          
-        </div>
-        <div class="record-desc">
-          <h1>Economic</h1>
-          <p>Discover the key insights into the world of economics with our latest book. Dive into the complex and fascinating realm of economic theories, policies, and real-world applications. Whether you're a student, a business professional, or just curious about how economies function</p>
-        </div>
-     </div>
-     <div class="record All" id="Story" onclick = filterCategory(this)>
-        <div class="record-arrow">
-          <!-- <img src="http://www.portalguard.com/images/icons/right-arrow.png"> -->
-        </div>
-        <div id="record4" class="record4-display">
-        </div>
-        <div class="record-desc">
-          <h1>Story</h1>
-          <p>Embark on a magical adventure with our enchanting storybook. Immerse yourself in a world of imagination and wonder as you journey through captivating tales and explore new realms</p>
-
-        </div>
-     </div>
-     <!-- </div> -->
-     <!-- <div class="tagline">Article Card Animation</div>, initial-scale=1.0"> -->
     </section>
-    <div class="frame">
-        <button class="bn632-hover bn28" id="button">VIEW MORE</button>
+    <section id="termAndConditions">
+      <div class="terms-box">
+        <div class="terms-text">
+          <h2>Terms of Service</h2>
+          <p>Last Edit: 10/14/2023</p>
+          <p>
+            These terms and conditions outline the rules and regulations for the
+            use of Inklyreads.
+          </p>
+          <p>
+            These terms and conditions outline the rules and regulations for the
+            use of Inklyreads.
+          </p>
+          <p>
+            The following terminology applies to these Terms and Conditions,
+            Privacy Statement, and Disclaimer Notice and any or all Agreements:
+            "user," the person accessing this website and accepting the
+            Company's terms and conditions.
+          </p>
+          <p>
+            The following terminology applies to these Terms and Conditions,
+            Privacy Statement, and Disclaimer Notice and any or all Agreements:
+            "user," the person accessing this website and accepting the
+            Company's terms and conditions.
+          </p>
+          <p>1. Acceptance of Terms</p>
+          <p>
+            1.1. By accessing or using Inklyreads, you agree to be bound by
+            these Terms and Conditions.
+          </p>
+          <p>2. Changes to Terms</p>
+          <p>
+            2.1. Inklyreads reserves the right to revise these terms and
+            conditions at any time without notice.
+          </p>
+          <p>3. Privacy Policy</p>
+          <p>
+            3.1. Inklyreads respects your privacy. Our Privacy Policy explains
+            how we collect, use, and protect your personal information.
+          </p>
+          <p>4. Use of the Website</p>
+          <p>
+            4.1. You agree not to use Inklyreads for any unlawful purpose or in
+            any way that could harm the website or its users.
+          </p>
+          <p>
+            4.2. You must not use Inklyreads in any way that causes, or may
+            cause, damage to the website or impairment of the availability or
+            accessibility of the website.
+          </p>
+          <p>5. Intellectual Property</p>
+          <p>
+            5.1. [Your Company] owns all intellectual property rights for all
+            content on Inklyreads. You may not reproduce, duplicate, or copy any
+            material from the website.
+          </p>
+          <p>6. Book Listings</p>
+          <p>
+            6.1. Inklyreads strives for accuracy in book listings, but we do not
+            guarantee the accuracy or completeness of the information provided
+            on our website.
+          </p>
+          <p>7. External Links</p>
+          <p>
+            7.1. Inklyreads may contain links to other websites. Inklyreads is
+            not responsible for the content or privacy practices of these
+            external sites.
+          </p>
+          <p>8. Limitation of Liability</p>
+          <p>
+            8.1. Inklyreads will not be liable to you (whether under the law of
+            contract, the law of torts, or otherwise) in relation to the
+            contents of, or use of, or otherwise in connection with, Inklyreads:
+          </p>
+          <p>
+            for any direct loss; for any indirect, special, or consequential
+            loss; or for any business losses, loss of revenue, income, profits,
+            or anticipated savings, loss of contracts, loss of reputation or
+            goodwill, or loss or corruption of information or data.
+          </p>
+          <p>9. Governing Law</p>
+          <p>
+            9.1. These terms and conditions are governed by and construed in
+            accordance with the laws of jordan and you irrevocably submit to the
+            exclusive jurisdiction.
+          </p>
+          <p>10. Contact Information</p>
+          <p>
+            10.1. If you have any questions or concerns regarding these terms
+            and conditions, please contact us.
+          </p>
+          <p>
+            By using Inklyreads, you signify your acceptance of these terms and
+            conditions. If you do not agree to these terms, please do not use
+            our website.
+          </p>
+          <h4>i Agree to the Terms of Service and I reed Privacy Notice.</h4>
+          <button type="button" class="submit-btn class-btn-term close">
+            Close
+          </button>
+        </div>
       </div>
+    </section>
+    <script type="module">
+      // initialize App and methods me used start
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/10.5.0/firebase-app.js";
+      import {
+        getDatabase,
+        set,
+        ref,
+        child,
+        get,
+      } from "https://www.gstatic.com/firebasejs/10.5.0/firebase-database.js";
+      import {
+        getAuth,
+        createUserWithEmailAndPassword,
+        signInWithEmailAndPassword,
+      } from "https://www.gstatic.com/firebasejs/10.5.0/firebase-auth.js";
+      // initialize App and methods me used end
 
-  <!-- Catigorise end -->
+      const firebaseConfig = {
+        apiKey: "AIzaSyD0q1Gw6cNmcLBE3y4jeY5KpswMMQ-ls00",
+        authDomain: "inklyreads-2529f.firebaseapp.com",
+        databaseURL: "https://inklyreads-2529f-default-rtdb.firebaseio.com/",
+        projectId: "inklyreads-2529f",
+        storageBucket: "inklyreads-2529f.appspot.com",
+        messagingSenderId: "781978896762",
+        appId: "1:781978896762:web:5ddba45622e4fd52abeec3",
+      };
 
+      // Initialize Firebase start
+      const app = initializeApp(firebaseConfig);
+      const db = getDatabase();
+      const auth = getAuth(app);
+      const dbref = ref(db);
+      // Initialize Firebase end
 
+      // Register User start
+      let RegisterUser = (event) => {
+        event.preventDefault();
 
+        // giv me all values for registerForm start
+        let firstName =
+          document.getElementById("registerForm").elements[0].value;
+        let lastName =
+          document.getElementById("registerForm").elements[1].value;
+        let email = document.getElementById("registerForm").elements[2].value;
+        let password =
+          document.getElementById("registerForm").elements[3].value;
+        let address = document.getElementById("registerForm").elements[4].value;
+        let agree = document.getElementById("registerForm").elements[5].value;
+        // giv me all values for registerForm end
 
+        createUserWithEmailAndPassword(auth, email, password)
+          .then((credentials) => {
+            set(ref(db, "UsersAuthList/" + credentials.user.uid), {
+              firstName: firstName,
+              lastName: lastName,
+              email: email,
+              password: password,
+              address: address,
+              agree: agree,
+            });
+            loginToggle();
+            function getInformation() {
+              let registerForm = document.getElementById("registerForm");
+              registerForm.addEventListener("submit", (e) => {
+                e.preventDefault();
+                let firstName =
+                  document.getElementById("registerForm").elements[0].value;
+                let lastName =
+                  document.getElementById("registerForm").elements[1].value;
+                let email =
+                  document.getElementById("registerForm").elements[2].value;
+                let password =
+                  document.getElementById("registerForm").elements[3].value;
+                let address =
+                  document.getElementById("registerForm").elements[4].value;
+                let agree =
+                  document.getElementById("registerForm").elements[5].value;
+                fetch("http://localhost:3000/users", {
+                  method: "POST",
+                  headers: {
+                    "Content-type": "application/json",
+                  },
+                  body: JSON.stringify({
+                    firstName: firstName,
+                    lastName: lastName,
+                    userName: `${firstName} ${lastName}`,
+                    email: email,
+                    password: password,
+                    address: address,
+                    agree: agree,
+                  }),
+                });
+              });
+            }
+            getInformation();
+          })
+          .catch((error) => {
+            console.log(error.code);
+            console.log(error.message);
+          });
+      };
+      registerForm.addEventListener("submit", RegisterUser);
+      // Register User end
 
-
-
-  <!-- new section  start -->
-  <div id="large-th">
-    <div class="container">
-
-      <div class="two alt-two">
-        <h1 class="newRelaseh1">New Release Books<span></span> </h1>
-      </div>
-      <br>
-      <!-- <div class="choose">
-        <a href="#list-th"><i class="fa fa-th-list" aria-hidden="true"></i></a>
-        <a href="#large-th"><i class="fa fa-th-large" aria-hidden="true"></i></a>
-      </div> -->
-      <div id="list-th">
-        <div class="book read">
-          <div class="cover">
-            <img src="https://s-media-cache-ak0.pinimg.com/564x/f9/8e/2d/f98e2d661445620266c0855d418aab71.jpg">
-
-          </div>
-
-          <div class="description">
-            <p class="title"> Frankenstein<br>
-
-              <span class="author">Mary Shelley</span>
-              <h6>${year}</h6>
-            </p>
-
-          </div>
-        </div>
-        <div class="book read">
-          <div class="cover">
-            <img src="https://alysbcohen.files.wordpress.com/2015/01/little-princess-book-cover.jpg">
-          </div>
-<div class="description">
-            <p class="title">A Little Princess<br>
-              <span class="author">Frances Hodgson Burnett</span></p>
-          </div>
-        </div>
-        <div class="book read">
-          <div class="cover">
-            <img src="http://www.publishersweekly.com/images/data/ARTICLE_PHOTO/photo/000/028/28129-1.JPG">
-          </div>
-          <div class="description">
-            <p class="title">Roughing It</br>
-              <span class="author">Mark Twain</span></p>
-          </div>
-        </div>
-        <div class="book read">
-          <div class="cover">
-            <img src="http://talkingwriting.com//sites/default/files/Bird-by-Bird-image1.jpg">
-          </div>
-          <div class="description">
-            <p class="title">Bird By Bird</br>
-              <span class="author">Anne Lamott</span></p>
-          </div>
-        </div>
-  <div class="book read">
-          <div class="cover">
-            <img src="http://d.gr-assets.com/books/1414348859l/23209971.jpg">
-          </div>
-          <div class="description">
-            <p class="title">Girl at War</br>
-              <span class="author">Sara Novic</span></p>
-          </div>
-        </div>
-
-
-      </div>
-    </div>
-  </div>
-
-  <!-- new section end   -->
-
-
-
-
-
-  
-
-  
-      <!-- About Section -->
-      <div class="about" id="aboutus">
-        <div class="inner-section">
-            <h1>About Us</h1>
-            <p class="text">
-                Dive into the world of literature and discover a treasure trove of books across genres, from timeless classics to contemporary bestsellers. We're here to be your guide, helping you find your next great read and providing insightful reviews, author spotlights, and reading recommendations.
-
-                Our mission is to ignite your passion for reading and provide a haven for all things book-related. So, grab your favorite beverage, cozy up in your reading nook, and let the journey through these pages begin.
-            </p>
-           
-        </div>
-    </div>
-    <!-- About section end -->
-
-
-    <!-- footer start -->
-<footer>
-  <div class="footer-info">
-    <div class="footer-whidth-about">
-      <h2>Inkly Reads</h2>
-      <p>our collection has something for every reader. Explore, 
-        read, and embark on endless literary journeys with you</p>
-        <div class="sochial-medea">
-          <ul>
-          <li><a href="https://www.facebook.com/people/Inkly-Reads/pfbid02n4CRZAdi7GytD45BvB4qCdsaxP2ihGjYhcMDqDJ8bmr1RbvuiCJpWkqqSCeVYM8zl/"><i class="fa-brands fa-facebook-f"></i></a></li>
-          <li><a href="https://twitter.com/i/flow/login?redirect_after_login=%2FInklyReads"><i class="fa-brands fa-twitter"></i></a></li>
-          <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-          </ul>
-        </div>
-    </div>
-    <div class="footer-whidth-link">
-      <h2>Quik links</h2>
-      <ul>
-        <li><a href="#aboutus">About</a></li>
-        <li><a href="#catigoris">Catigore</a></li>
-        <li><a href="html/contact.html">Contact</a></li>
-      </ul>
-    </div>
-    <div class="footer-whidth-contact">
-      <h2>Contact</h2>
-      <ul>
-        <li>
-          <span> <i class="fa fa-map-marker"></i></span>
-          <p>Jordan Amman</p>
-        </li>
-        <li>
-          <span> <i class="fa fa-envelope"></i></span>
-          <a href="#">inkiyreads@gmail.com</a>
-        </li>
-        <li>
-          <span> <i class="fa fa-phone"></i></span>
-          <p>000 123 456</p>
-        </li>
-      </ul>
-    </div>
-  </div>
-  <div class="copy-right">
-    <p>&copy,Inkly Reads . 2023 </p>
-  </div>
-</footer>
-<!-- footer end -->
-
-<script>
-  let UserCredentials = JSON.parse(
-    sessionStorage.getItem("user-credentials")
-  );
-  let UserInfo = JSON.parse(sessionStorage.getItem("user-info"));
-
-  let Welcome = document.getElementById("userNameWelcome");
-
-
-
-  let SignoutButton = document.getElementById("signoutButton");
-
-  let Signout = () => {
-    sessionStorage.removeItem("user-credentials");
-    sessionStorage.removeItem("user-info");
-    window.location.href = "html/loginRegister.html";
-  };
-
-  let CheckCredentials = () => {
-    if (!sessionStorage.getItem("user-credentials")) {
-      window.location.href = "html/loginRegister.html";
-    } else {
-      Welcome.innerHTML = `${UserInfo.firstName}`;
-    } 
-  };
-  window.addEventListener("load", CheckCredentials);
-  SignoutButton.addEventListener("click", Signout);
-</script>
-    <script src="js/app.js"></script>
+      // Sign In User start
+      let SignInUser = (event) => {
+        event.preventDefault();
+        let email = document.getElementById("loginForm").elements[0].value;
+        let password = document.getElementById("loginForm").elements[1].value;
+        signInWithEmailAndPassword(auth, email, password)
+          .then((credentials) => {
+            get(child(dbref, "UsersAuthList/" + credentials.user.uid)).then(
+              (snapshot) => {
+                if (snapshot.exists()) {
+                  sessionStorage.setItem(
+                    "user-info",
+                    JSON.stringify({
+                      firstName: snapshot.val().firstName,
+                      lastName: snapshot.val().lastName,
+                    })
+                  );
+                  sessionStorage.setItem(
+                    "user-credentials",
+                    JSON.stringify(credentials.user)
+                  );
+                  window.location.href = "../index.html";
+                }
+              }
+            );
+          })
+          .catch((error) => {
+            alert(error.message);
+            console.log(error.code);
+            console.log(error.message);
+          });
+      };
+      loginForm.addEventListener("submit", SignInUser);
+      // Sign In User end
+    </script>
+    <script src="../js/loginRegister.js"></script>
   </body>
 </html>

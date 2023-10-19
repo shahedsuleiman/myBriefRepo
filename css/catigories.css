@@ -294,17 +294,17 @@ h1 {
       } */
 
 
-      @media only screen and (max-width: 768px) {
+      /* @media only screen and (max-width: 768px) {
         #Main {
           flex-direction: column;
         }
       
         .record {
           width: 100%;
-          height: 50vw;
+          height: 50vw; */
            /* Adjust the width for smaller screens */
 
-<<<<<<< HEAD
+
     /* @media only screen and  (min-width: 769px) and (max-width: 1279px) {
 
    .bn632-hover {
@@ -323,12 +323,12 @@ h1 {
        } */
 
        
-=======
-        }
-      }
+
+        /* }
+      } */
 
       /* catigories end*/
 
->>>>>>> cf6ba5687d0da90f0e8df7b74b9883d9baadc7f3
+
       
       

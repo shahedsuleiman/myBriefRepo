@@ -19,7 +19,7 @@ fetch("http://localhost:3000/books")
 
             const image = document.createElement("img");
             image.src = `${book.img}`;
-            image.style.width = "296px" ;
+            image.style.width = "278px" ;
             image.style.height = "398px" ;
 
             const title = document.createElement("h2");
@@ -85,7 +85,7 @@ fetch("http://localhost:3000/books")
     
                 const image = document.createElement("img");
                 image.src = `${book.img}`;
-                image.style.width = "296px" ;
+                image.style.width = "278px" ;
                 image.style.height = "398px" ;
     
                 const title = document.createElement("h2");
@@ -150,7 +150,7 @@ fetch("http://localhost:3000/books")
     
                 const image = document.createElement("img");
                 image.src = `${book.img}`;
-                image.style.width = "296px" ;
+                image.style.width = "278px" ;
                 image.style.height = "398px" ;
     
                 const title = document.createElement("h2");
@@ -216,7 +216,7 @@ fetch("http://localhost:3000/books")
     
                 const image = document.createElement("img");
                 image.src = `${book.img}`;
-                image.style.width = "296px";
+                image.style.width = "278px";
                 image.style.height = "398px";
     
                 const title = document.createElement("h2");

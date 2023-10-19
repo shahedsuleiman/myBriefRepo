@@ -38,11 +38,23 @@
         </div>
       </div>
       <i class="fa-solid fa-bars menuToggle"></i>
-      <a href="html/loginRegister.html" class="person"
-        ><i class="fa-regular fa-user"></i
+      <a id="person" class="person">
+        <i class="fa-regular fa-user"></i
       ></a>
+      <form id="signoutForm" class="logoutIcon">
+        <button type="submit" id="signoutButton">
+          <i class="fa-solid fa-up-right-from-square"><span>Logout</span></i>
+        </button>
+      </form>
       <div class="searchBox">
-        <input type="text" placeholder="Search here . . ." />
+        <form id="searchForm">
+          <input
+            id="searchInput"
+            name="search"
+            type="text"
+            placeholder="Search here . . ."
+          />
+        </form>
       </div>
     </nav>
 
@@ -51,7 +63,7 @@
 		<!-- fade css -->
 		<div class="myslide fade">
 			<div class="txt">
-				<h1> WELCOME TO INKLY READES</h1>
+				<h1> WELCOME <span id="userNameWelcome"></span></h1>
 				<p>We're thrilled to have you here at Inkly Reads, where the pages of countless <br> stories await your exploration.
 					Whether you're an avid reader, a curious wanderer, or a literary adventurer, this is the place where words come alive.</p>
 			</div>
@@ -112,27 +124,16 @@
 
 
 
-  <!-- top rated start -->
-
-     <div class="two alt-two">
-      <h1 class="topRateH1">TOP RATED <span></span></h1>
-    </div>
+<!-- top rated start -->
+  <div class="two alt-two">
+    <h1 class="topRateH1">TOP RATED <span></span></h1>
+  </div>
   <section class="toprated">
-    
-    <!-- <div class="two alt-two">
-      <h1 class="topRateH1">TOP RATED <span></span></h1>
-    </div> -->
-
-    <br><br>
-
     <div class="carousel-container">
-
       <ul class="cards">
-
       </ul>
-
     </div>
-</section>
+  </section>
 <!-- top rated end -->
 
 
@@ -189,7 +190,7 @@
 
         </div>
      </div>
-     </div>
+     <!-- </div> -->
      <!-- <div class="tagline">Article Card Animation</div>, initial-scale=1.0"> -->
     </section>
     <div class="frame">
@@ -224,12 +225,10 @@
           </div>
 
           <div class="description">
-            <p class="title">Frankenstein<br>
-
+            <p class="title"> Frankenstein<br>
               <span class="author">Mary Shelley</span>
               <h6>${year}</h6>
             </p>
-
           </div>
         </div>
         <div class="book read">
@@ -345,7 +344,39 @@
 </footer>
 <!-- footer end -->
 
+<script>
+  let UserCredentials = JSON.parse(
+    sessionStorage.getItem("user-credentials")
+  );
 
+
+  let UserInfo = JSON.parse(sessionStorage.getItem("user-info"));
+  let SignoutButton = document.getElementById("signoutButton");
+  let Welcome = document.getElementById("userNameWelcome");
+
+    Signout = () => {
+    sessionStorage.removeItem("user-credentials");
+    sessionStorage.removeItem("user-info");
+    window.location.href = "html/loginRegister.html";
+  };
+  
+  let CheckCredentials = () => {
+    if (!sessionStorage.getItem("user-credentials")) {
+      Welcome.innerHTML = `TO INKLYREADS`
+      document.getElementById("signoutForm").style.visibility = "hidden"
+      document.getElementById("person").href = "html/loginRegister.html"
+      // window.location.href = "html/loginRegister.html";
+    } else {
+      Welcome.innerHTML = `${UserInfo.firstName}`;
+      document.getElementById("signoutForm").style.visibility = "visible"
+
+      document.getElementById("person").href = "../html/userProfile.html"
+
+    } 
+  };
+  window.addEventListener("load", CheckCredentials);
+  SignoutButton.addEventListener("click", Signout);
+</script>
     <script src="js/app.js"></script>
   </body>
 </html>

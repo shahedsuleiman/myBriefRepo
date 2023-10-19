@@ -19,31 +19,6 @@ function loginToggle() {
   }
   
   // get user information then store in json server
-  registerForm.addEventListener("submit", (e) => {
-    e.preventDefault();
-    let firstName = document.getElementById("registerForm").elements[0].value;
-    let lastName = document.getElementById("registerForm").elements[1].value;
-    let email = document.getElementById("registerForm").elements[2].value;
-    let password = document.getElementById("registerForm").elements[3].value;
-    let address = document.getElementById("registerForm").elements[4].value;
-    let agree = document.getElementById("registerForm").elements[5].value;
-    fetch("http://localhost:3000/users", {
-      method: "POST",
-      headers: {
-        "Content-type": "application/json",
-      },
-      body: JSON.stringify({
-        firstName: firstName,
-        lastName: lastName,
-        userName: `${firstName} ${lastName}`,
-        email: email,
-        password: password,
-        address: address,
-        agree: agree,
-      }),
-    });
-  });
-  
   // Terms And Conditions Start
   const termAndConditions = document.getElementById("termAndConditions");
   const close = document.querySelector(".close");
@@ -61,3 +36,31 @@ function loginToggle() {
     hideTerm();
   });
   // Terms And Conditions End
+
+// get user information then store in json server START
+// let regform = document.querySelector(".submit-btn.class-btn");
+// regform.addEventListener("click", (e) => {
+//     e.preventDefault();
+//     let firstName = document.getElementById("registerForm").elements[0].value;
+//     let lastName = document.getElementById("registerForm").elements[1].value;
+//     let email = document.getElementById("registerForm").elements[2].value;
+//     let password = document.getElementById("registerForm").elements[3].value;
+//     let address = document.getElementById("registerForm").elements[4].value;
+//     let agree = document.getElementById("registerForm").elements[5].value;
+//     fetch("http://localhost:3000/users", {
+//       method: "POST",
+//       headers: {
+//         "Content-type": "application/json",
+//       },
+//       body: JSON.stringify({
+//         firstName: firstName,
+//         lastName: lastName,
+//         userName: `${firstName} ${lastName}`,
+//         email: email,
+//         password: password,
+//         address: address,
+//         agree: agree,
+//       }),
+//     });
+//   });
+  // get user information then store in json server END

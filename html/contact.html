@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact Form</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link rel="stylesheet" href="../css/contact.css" />
     <script
@@ -12,11 +16,53 @@
     ></script>
   </head>
   <body>
+
+    <nav>
+      <a href="index.html" class="name">
+        <i class="fa-solid fa-book"></i>
+        InklyReads
+      </a>
+      <div class="group">
+        <ul class="navigation">
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/index.html">About</a></li>
+          <!-- <li><a href="html/contact.html">Contact</a></li> -->
+          <li><a href="/index.html">catigories</a></li>
+        </ul>
+        <!-- <div class="search">
+          <span class="icon">
+            <i class="fa-solid fa-magnifying-glass searchBtn"></i>
+            <i class="fa-solid fa-x fa-2xs closeBtn"></i>
+          </span>
+        </div> -->
+      </div>
+      <i class="fa-solid fa-bars menuToggle"></i>
+      <a href="html/loginRegister.html" class="person">
+        <i class="fa-regular fa-user"></i
+      ></a>
+      <form id="signoutForm" class="logoutIcon">
+        <button type="submit" id="signoutButton">
+          <i class="fa-solid fa-up-right-from-square"></i>
+        </button>
+      </form>
+      <div class="searchBox">
+        <form id="searchForm">
+          <input
+            id="search"
+            name="search"
+            type="text"
+            placeholder="Search here . . ."
+          />
+        </form>
+      </div>
+    </nav>
+
+    <!-- contact start -->
     <div class="container">
       <span class="big-circle"></span>
       
       <img src="img/shape.png" class="square" alt="" />
-      <div class="form">
+      <div class="form" action="https://formsubmit.4463b1c100dd6246c4eafa0a3220560e" method="POST">
         <div class="contact-info">
           <h3 class="title">Let's get in touch</h3>
           <p class="text">
@@ -66,25 +112,25 @@
           <span class="circle one"></span>
           <span class="circle two"></span>
 
-          <form action="mailto : mothanaalmajali91@gmail.com" method="POST" enctype="text/plain">
+          <form  action="https://formspree.io/f/mnqklrgr" method="POST">
             <h3 class="title">Contact us</h3>
             <div class="input-container">
-              <input type="text" name="name" class="input" />
+              <input type="text" name="name"  class="input" id="name" placeholder="name" />
               <label for="">Username</label>
               <span>Username</span>
             </div>
             <div class="input-container">
-              <input type="email" name="email" class="input"  id="email"/>
+              <input type="email" name="email" class="input"  id="email" placeholder="email"/>
               <label for="">Email</label>
               <span>Email</span>
             </div>
             <div class="input-container">
-              <input type="tel" name="phone" class="input" />
+              <input type="tel" name="phone" class="input"  id="phone" placeholder="phone"/>
               <label for="">Phone</label>
               <span>Phone</span>
             </div>
             <div class="input-container textarea">
-              <textarea name="message" class="input"></textarea>
+              <textarea name="message" class="input" id="message" placeholder="message"></textarea>
               <label for="">Message</label>
               <span>Message</span>
             </div>
@@ -93,6 +139,57 @@
         </div>
       </div>
     </div>
+
+     <!-- footer start -->
+<footer>
+  <div class="footer-info">
+    <div class="footer-whidth-about">
+      <h2>Inkly Reads</h2>
+      <p>our collection has something for every reader. Explore, 
+        read, and embark on endless literary journeys with you</p>
+        <div class="sochial-medea">
+          <ul>
+          <li><a href="https://www.facebook.com/people/Inkly-Reads/pfbid02n4CRZAdi7GytD45BvB4qCdsaxP2ihGjYhcMDqDJ8bmr1RbvuiCJpWkqqSCeVYM8zl/"><i class="fa-brands fa-facebook-f"></i></a></li>
+          <li><a href="https://twitter.com/i/flow/login?redirect_after_login=%2FInklyReads"><i class="fa-brands fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+          </ul>
+        </div>
+    </div>
+    <div class="footer-whidth-link">
+      <h2>Quik links</h2>
+      <ul>
+        <li><a href="#aboutus">About</a></li>
+        <li><a href="#catigoris">Catigore</a></li>
+        <li><a href="html/contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-whidth-contact">
+      <h2>Contact</h2>
+      <ul>
+        <li>
+          <span> <i class="fa fa-map-marker"></i></span>
+          <p>Jordan Amman</p>
+        </li>
+        <li>
+          <span> <i class="fa fa-envelope"></i></span>
+          <a href="#">inkiyreads@gmail.com</a>
+        </li>
+        <li>
+          <span> <i class="fa fa-phone"></i></span>
+          <p>078 1212 321</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="copy-right">
+    <p>&copy,Inkly Reads . 2023 </p>
+  </div>
+</footer>
+<!-- <script src="https://smtpjs.com/v3/smtp.js">
+</script> -->
+
+
+
     <script src="../js/contact.js"></script>
   </body>
 </html>

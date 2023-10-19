@@ -18,7 +18,10 @@ body {
        transform: translateY(-20px);  
    
 }
-
+/* #image {
+  width: 260px;
+  height: 398px;
+} */
 img {
      /* transform-style: preserve-3d;
     transition: all 250ms ease;  */
@@ -29,6 +32,8 @@ img:hover {
     /* transform: rotate(45deg); */
      /* transform: rotate3d(0, -1, 0, 30deg) translate(-15px, -30px);  */
 }
+
+
 
 
 h1 {
@@ -197,20 +202,41 @@ h1 {
   margin: 80px;
 }
 
-
-
-
-
-
-
-  
-
-
 .M {
   width: 500px;
   height: 500px;
   background-color: white;
 }
+
+/* img#Mohammadimg {
+  width: 280px !important;
+  height: 398px !important;
+} */
+
+
+    @media only screen and (max-width: 1279px) {
+
+.Science {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.History {
+
+  display: flex;
+  flex-wrap: wrap;
+}
+.Economic {
+  display: flex;
+  flex-wrap: wrap;
+}
+.Story{
+  
+  display: flex;
+  flex-wrap: wrap;
+}
+   } 
+
 
 
 

@@ -2,7 +2,7 @@
   "books": [
     {
       "id": 1,
-      "img": "/assets/images/Brief History of Time.jpg",
+      "img": "../assets/images/Brief History of Time.jpg",
       "title": "Brief History of Time",
       "long_description": "A Brief History of Time is a popular science book on theoretical cosmology, written by English theoretical physicist Stephen Hawking. It was first published in 1988. Hawking wrote the book for readers who have no prior knowledge of physics. The book explores a wide range of topics in cosmology, including the Big Bang, black holes, and the search for a unified theory of physics.",
       "author": "Stephen Hawking",
@@ -13,7 +13,7 @@
     },
     {
       "id": 2,
-      "img": "/assets/images/The Theory of Everything The Origin and Fate of the Universe.jpg",
+      "img": "../assets/images/The Theory of Everything The Origin and Fate of the Universe.jpg",
       "title": "The Theory of Everything: The Origin and Fate of the Universe",
       "long_description": "The Theory of Everything is a 2004 book by Stephen Hawking, a theoretical physicist and cosmologist. The book is a popular science book that provides an overview of modern cosmology. Hawking covers a wide range of topics in the book, including the Big Bang, black holes, and the search for a unified theory of physics.",
       "author": "Stephen Hawking",
@@ -24,7 +24,7 @@
     },
     {
       "id": 3,
-      "img": "/assets/images/Guns, Germs, and Steel The Fates of Human Societies.jpg",
+      "img": "../assets/images/Guns, Germs, and Steel The Fates of Human Societies.jpg",
       "title": "Guns, Germs, and Steel: The Fates of Human Societies",
       "long_description": "Guns, Germs, and Steel is a 1997 book by Jared Diamond, a professor of geography at UCLA. The book is a popular science book that attempts to explain why the Eurasian peoples came to dominate the world, while other peoples, such as the Native Americans and the Australian Aborigines, did not. Diamond argues that geography played a major role in the development of different civilizations.",
       "author": "Jared Diamond",
@@ -35,7 +35,7 @@
     },
     {
       "id": 4,
-      "img": "/assets/images/Pride and Prejudice.jpg",
+      "img": "../assets/images/Pride and Prejudice.jpg",
       "title": "Pride and Prejudice",
       "long_description": "Pride and Prejudice is a romantic novel written by Jane Austen and first published in 1813. The story follows the main character, Elizabeth Bennet, as she deals with issues of manners, upbringing, morality, education, and marriage in the society of the landed gentry of early 19th-century England. Elizabeth is the second-eldest of five daughters of a country gentleman living near the fictional town of Meryton in Hertfordshire, near London.",
       "author": "Jane Austen",
@@ -46,7 +46,7 @@
     },
     {
       "id": 5,
-      "img": "/assets/images/Seven Brief Lessons on Physics.jpg",
+      "img": "../assets/images/Seven Brief Lessons on Physics.jpg",
       "title": "Seven Brief Lessons on Physics",
       "long_description": "Seven Brief Lessons on Physics is a 2001 book by Carlo Rovelli, an Italian theoretical physicist. The book is a popular science book that provides an overview of modern physics, including quantum mechanics and relativity. Rovelli covers a wide range of topics in the book, including the nature of space and time, the Big Bang, and the search for a unified theory of physics.",
       "author": "Carlo Rovelli",
@@ -57,7 +57,7 @@
     },
     {
       "id": 6,
-      "img": "/assets/images/A History of the World in 6 Glasses.jpg",
+      "img": "../assets/images/A History of the World in 6 Glasses.jpg",
       "title": "A History of the World in 6 Glasses",
       "long_description": "A History of the World in 6 Glasses is a 2005 book by Tom Standage, a British science writer and journalist. The book is a popular history book that tells the story of the world through the lens of six beverages: beer, wine, spirits, tea, coffee, and Coca-Cola. Standage argues that these beverages have played a major role in shaping human history, and he uses them to explore a wide range of topics, including the rise and fall of civilizations, the development of trade, and the global economy.",
       "author": "Tom Standage",
@@ -68,18 +68,7 @@
     },
     {
       "id": 7,
-      "img": "/assets/images/Thinking, Fast and Slow.jpg",
-      "title": "Thinking, Fast and Slow",
-      "long_description": "Thinking, Fast and Slow is a 2011 book by Daniel Kahneman, an Israeli-American psychologist and Nobel laureate. The book is a popular psychology book that explores the two systems of thought that drive human behavior: System 1, which is fast, intuitive, and emotional, and System 2, which is slow, deliberative, and logical. Kahneman argues that System 1 is responsible for most of our everyday decisions, while System 2 is only engaged when we need to solve complex problems or make important choices.",
-      "author": "Daniel Kahneman",
-      "year": 2011,
-      "pages": 512,
-      "rating": 4.5,
-      "type": "Economic"
-    },
-    {
-      "id": 8,
-      "img": "/assets/images/Surely You're Joking, Mr. Feynman!.jpg",
+      "img": "../assets/images/Surely You're Joking, Mr. Feynman!.jpg",
       "title": "Surely You're Joking, Mr. Feynman!",
       "long_description": "Surely You're Joking, Mr. Feynman! is a collection of anecdotes and stories from the life of Richard P. Feynman, a Nobel Prize-winning physicist. The book was first published in 1985 and has since become a classic. Feynman was known for his sense of humor and his ability to explain complex scientific concepts in a way that was easy to understand. The book is a must-read for anyone interested in science or Feynman's life.",
       "author": "Richard P. Feynman",
@@ -89,8 +78,8 @@
       "type": "Science"
     },
     {
-      "id": 9,
-      "img": "/assets/images/Astrophysics for People in a Hurry.jpg",
+      "id": 8,
+      "img": "../assets/images/Astrophysics for People in a Hurry.jpg",
       "title": "Astrophysics for People in a Hurry",
       "long_description": "Astrophysics for People in a Hurry is a 1993 book by Neil deGrasse Tyson, an American astrophysicist, cosmologist, author, and science communicator. The book is a popular science book that provides an overview of astrophysics, including the Big Bang, stars, galaxies, and black holes. Tyson covers a wide range of topics in the book, and he does so in a way that is easy to understand for even the most non-technical reader. The book is a must-read for anyone who wants to learn more about the universe we live in.",
       "author": "Neil deGrasse Tyson",
@@ -100,8 +89,8 @@
       "type": "Science"
     },
     {
-      "id": 10,
-      "img": "/assets/images/A Short History of Nearly Everything.jpg",
+      "id": 9,
+      "img": "../assets/images/A Short History of Nearly Everything.jpg",
       "title": "A Short History of Nearly Everything",
       "long_description": "A Short History of Nearly Everything is a 2003 book by Bill Bryson, a British-American science writer. The book is a popular science book that covers a wide range of topics, including the Big Bang, the solar system, the Earth, life, and the human body. Bryson writes in a clear and engaging style, and he does a great job of explaining complex scientific concepts in a way that is easy to understand for even the most non-technical reader. The book is a must-read for anyone who wants to learn more about the world we live in.",
       "author": "Bill Bryson",
@@ -111,8 +100,8 @@
       "type": "Science"
     },
     {
-      "id": 11,
-      "img": "/assets/images/The Wealth of Nations.jpg",
+      "id": 10,
+      "img": "../assets/images/The Wealth of Nations.jpg",
       "title": "The Wealth of Nations",
       "long_description": "The Wealth of Nations is a 1776 book by Adam Smith, a Scottish economist and philosopher. The book is considered to be one of the most important works in the history of economics. Smith argues in the book that the division of labor and free markets are essential for economic growth. The book is a must-read for anyone who wants to understand how the economy works.",
       "author": "Adam Smith",
@@ -122,8 +111,8 @@
       "type": "Economic"
     },
     {
-      "id": 12,
-      "img": "/assets/images/The Elegant Universe.jpg",
+      "id": 11,
+      "img": "../assets/images/The Elegant Universe.jpg",
       "title": "The Elegant Universe",
       "long_description": "The Elegant Universe is a 1999 book by Brian Greene, a theoretical physicist and science communicator. The book is a popular science book that provides an overview of string theory, a branch of theoretical physics that attempts to unify all of the fundamental forces of nature. Greene writes in a clear and engaging style, and he does a great job of explaining complex scientific concepts in a way that is easy to understand for even the most non-technical reader. The book is a must-read for anyone who wants to learn more about the universe and the quest for a unified theory of physics.",
       "author": "Brian Greene",
@@ -133,8 +122,8 @@
       "type": "Science"
     },
     {
-      "id": 13,
-      "img": "/assets/images/The Sixth Extinction.jpg",
+      "id": 12,
+      "img": "../assets/images/The Sixth Extinction.jpg",
       "title": "The Sixth Extinction: An Unnatural History",
       "long_description": "The Sixth Extinction: An Unnatural History is a 2014 book by Elizabeth Kolbert, an American journalist and author. The book is a popular science book that tells the story of the five mass extinctions that have occurred on Earth, and it explores the possibility that we are currently in the midst of a sixth mass extinction. Kolbert argues that human activity is the primary cause of the current mass extinction, and she calls on us to take action to protect the planet and its biodiversity.",
       "author": "Elizabeth Kolbert",
@@ -144,8 +133,8 @@
       "type": "Science"
     },
     {
-      "id": 14,
-      "img": "/assets/images/A People's History.jpg",
+      "id": 13,
+      "img": "../assets/images/A People's History.jpg",
       "title": "A People's History of the United States: 1492-Present",
       "long_description": "A People's History of the United States: 1492-Present is a 2010 book by Howard Zinn, a historian and political activist. The book is a popular history book that tells the story of the United States from the perspective of the working class and other marginalized groups. Zinn challenges the traditional narrative of American history, which he argues is too focused on the achievements of the elite.",
       "author": "Howard Zinn",
@@ -155,8 +144,8 @@
       "type": "History"
     },
     {
-      "id": 15,
-      "img": "/assets/images/The Undercover Economist Strikes Back.jpg",
+      "id": 14,
+      "img": "../assets/images/The Undercover Economist Strikes Back.jpg",
       "title": "The Undercover Economist Strikes Back",
       "long_description": "The Undercover Economist Strikes Back: How to Understand the Hidden Forces That Shape Our World is a 2011 book by Tim Harford, an economist and journalist. The book is a sequel to Harford's 2005 book The Undercover Economist. In this book, Harford uses real-world examples to explain complex economic concepts in a way that is easy to understand. He covers a wide range of topics, including the economics of love, the economics of crime, and the economics of happiness. The book is a must-read for anyone who wants to understand how economics works in the real world.",
       "author": "Tim Harford",
@@ -166,8 +155,8 @@
       "type": "Economic"
     },
     {
-      "id": 16,
-      "img": "/assets/images/To Kill a Mockingbird.jpg",
+      "id": 15,
+      "img": "../assets/images/To Kill a Mockingbird.jpg",
       "title": "To Kill a Mockingbird",
       "long_description": "To Kill a Mockingbird is a 1960 novel by Harper Lee. The book is set in the American South during the Great Depression. It tells the story of Scout Finch, a young girl who learns about racism and injustice when her father, Atticus Finch, defends a black man who has been falsely accused of rape. The book is a must-read for anyone who wants to understand the American South during the Jim Crow era.",
       "author": "Harper Lee",
@@ -177,8 +166,8 @@
       "type": "Story"
     },
     {
-      "id": 17,
-      "img": "/assets/images/Project Hail Mary.jpg",
+      "id": 16,
+      "img": "../assets/images/Project Hail Mary.jpg",
       "title": "Project Hail Mary",
       "long_description": "Project Hail Mary is a 2021 science fiction novel by American author Andy Weir. It tells the story of Ryland Grace, an astronaut who wakes up from a coma to find himself alone on a spaceship with no memory of how he got there. He must piece together his past and complete his mission to save humanity.",
       "author": "Andy Weir",
@@ -188,8 +177,8 @@
       "type": "Science"
     },
     {
-      "id": 18,
-      "img": "/assets/images/The Guns of August.jpg",
+      "id": 17,
+      "img": "../assets/images/The Guns of August.jpg",
       "title": "The Guns of August",
       "long_description": "The Guns of August is a 1962 book by American historian Barbara Tuchman. It tells the story of the first month of World War I, from the assassination of Archduke Franz Ferdinand to the declaration of war between Germany and Russia.",
       "author": "Barbara Tuchman",
@@ -199,8 +188,8 @@
       "type": "History"
     },
     {
-      "id": 19,
-      "img": "/assets/images/Freakonomics A Rogue Economist Explores the Hidden Side of Everything.jpg",
+      "id": 18,
+      "img": "../assets/images/Freakonomics A Rogue Economist Explores the Hidden Side of Everything.jpg",
       "title": "Freakonomics Goes to School",
       "long_description": "Freakonomics Goes to School is a 2010 book by Steven D. Levitt and Stephen J. Dubner. It is a sequel to their 2005 book Freakonomics. In this book, Levitt and Dubner use real-world examples to explain complex economic concepts related to education. They cover a wide range of topics, including the economics of cheating, the economics of school choice, and the economics of teacher pay.",
       "author": "Steven D. Levitt and Stephen J. Dubner",
@@ -210,8 +199,8 @@
       "type": "Economic"
     },
     {
-      "id": 20,
-      "img": "/assets/images/Dune.jpg",
+      "id": 19,
+      "img": "../assets/images/Dune.jpg",
       "title": "Dune",
       "long_description": "Dune is a 1965 science fiction novel by American author Frank Herbert. Set on the desert planet Arrakis, Dune is the story of Paul Atreides, a young man who must lead his people in a battle for the planet's most valuable resource: the spice melange.",
       "author": "Frank Herbert",
@@ -221,8 +210,8 @@
       "type": "Story"
     },
     {
-      "id": 21,
-      "img": "/assets/images/The Handmaid's Tale.jpg",
+      "id": 20,
+      "img": "../assets/images/The Handmaid's Tale.jpg",
       "title": "The Handmaid's Tale",
       "long_description": "The Handmaid's Tale is a 1985 dystopian novel by Canadian author Margaret Atwood. It is set in a near-future New England, where a totalitarian regime has overthrown the United States government and established a theocratic dictatorship. The story follows Offred, a woman who has been forced to become a handmaid, a fertile woman who is used to breed for the elite.",
       "author": "Margaret Atwood",
@@ -232,8 +221,8 @@
       "type": "Story"
     },
     {
-      "id": 22,
-      "img": "/assets/images/The Martian.jpg",
+      "id": 21,
+      "img": "../assets/images/The Martian.jpg",
       "title": "The Martian",
       "long_description": "The Martian is a 2011 science fiction novel by American author Andy Weir. It tells the story of Mark Watney, an astronaut who is stranded on Mars after his crew is forced to evacuate due to a severe storm. Watney must use his ingenuity and engineering skills to survive on Mars and find a way to return to Earth.",
       "author": "Andy Weir",
@@ -243,8 +232,8 @@
       "type": "Science"
     },
     {
-      "id": 23,
-      "img": "/assets/images/The Martian.jpg",
+      "id": 22,
+      "img": "../assets/images/A History of the World in 60 Objects.jpg",
       "title": "A History of the World in 60 Objects",
       "long_description": "A History of the World in 60 Objects is a 2010 book by British historian Neil MacGregor. It tells the story of the world through the lens of 60 objects, from the Rosetta Stone to the first iPhone. MacGregor argues that these objects offer insights into the human experience and help us to understand the world around us.",
       "author": "Neil MacGregor",
@@ -254,41 +243,41 @@
       "type": "History"
     },
     {
-      "id": 24,
-      "img": "/assets/images/The Lord of the Rings.jpg",
+      "id": 23,
+      "img": "../assets/images/The Lord of the Rings.jpg",
       "title": "The Lord of the Rings",
       "long_description": "The Lord of the Rings is an epic high fantasy trilogy written by English philologist and University of Oxford professor J. R. R. Tolkien. The story began as a sequel to Tolkien's 1937 fantasy novel The Hobbit, but eventually developed into a much larger work. Written in stages between 1937 and 1949, with much of it being written during World War II, it was originally published in three volumes in 1954 and 1955. It has since been reprinted numerous times and translated into at least 38 languages, becoming one of the best-selling novels ever written.",
       "author": "J. R. R. Tolkien",
       "year": 1954,
       "pages": 1178,
       "rating": 4.5,
-      "type": "Fiction"
+      "type": "Story"
     },
     {
-      "id": 25,
-      "img": "/assets/images/Beloved.jpg",
+      "id": 24,
+      "img": "../assets/images/Beloved.jpg",
       "title": "Beloved",
       "long_description": "Beloved is a 1987 novel by American novelist and Nobel laureate Toni Morrison. It is set in antebellum Ohio and tells the story of Sethe, a former slave who is haunted by the ghost of her dead daughter, Beloved. Morrison uses the novel to explore the legacy of slavery and its impact on Black Americans.",
       "author": "Toni Morrison",
       "year": 1987,
       "pages": 321,
       "rating": 4.5,
-      "type": "Fiction"
+      "type": "Economic"
     },
     {
-      "id": 26,
-      "img": "/assets/images/The Hitchhiker's Guide to the Galaxy.jpg",
+      "id": 25,
+      "img": "../assets/images/The Hitchhiker's Guide to the Galaxy.jpg",
       "title": "The Hitchhiker's Guide to the Galaxy",
       "long_description": "The Hitchhiker's Guide to the Galaxy is a comic science fiction comedy series created by Douglas Adams. Originally a radio comedy broadcast on BBC Radio 4 in 1978, it was later adapted to other formats, including stage shows, novels, comic books, a 1981 TV series, a 1984 computer game, and 2005 feature film. The series follows the adventures of Arthur Dent, a hapless Englishman who is rescued from the destruction of the Earth by his friend Ford Prefect, a human researcher for the titular Hitchhiker's Guide to the Galaxy, a pan-galactic encyclopaedia and travel guide for hitchhikers. The Hitchhiker's Guide to the Galaxy has been praised for its humour, originality, and philosophical insights. It has become a cult classic and has influenced many other works of science fiction.",
       "author": "Douglas Adams",
       "year": 1979,
       "pages": 224,
       "rating": 4.5,
-      "type": "Science Fiction"
+      "type": "Science"
     },
     {
-      "id": 27,
-      "img": "/assets/images/Sapiens A Brief History of Humankind.jpg",
+      "id": 26,
+      "img": "../assets/images/Sapiens A Brief History of Humankind.jpg",
       "title": "Sapiens: A Brief History of Humankind",
       "long_description": "Sapiens: A Brief History of Humankind is a 2011 book by Yuval Noah Harari, a history professor at the Hebrew University of Jerusalem. The book tells the story of humankind from the Stone Age to the present day. Harari argues in the book that humans are the only species on Earth that has been able to cooperate flexibly in large numbers, which has allowed us to dominate the planet. The book is a must-read for anyone who wants to understand the history of humankind and how we came to be where we are today.",
       "author": "Yuval Noah Harari",
@@ -298,8 +287,8 @@
       "type": "History"
     },
     {
-      "id": 28,
-      "img": "/assets/images/Thinking, Fast and Slow.jpg",
+      "id": 27,
+      "img": "../assets/images/Thinking, Fast and Slow.jpg",
       "title": "Thinking, Fast and Slow",
       "long_description": "Thinking, Fast and Slow is a 2011 book by Israeli-American psychologist and Nobel laureate Daniel Kahneman. It explores the two systems of thought that drive human behavior: System 1, which is fast, intuitive, and emotional, and System 2, which is slow, deliberative, and logical. Kahneman argues that System 1 is responsible for most of our everyday decisions, while System 2 is only engaged when we need to solve complex problems or make important choices. The book has been praised for its insights into human psychology and its clear and engaging writing style. It has become a bestseller and has been translated into over 40 languages.",
       "author": "Daniel Kahneman",
@@ -309,43 +298,43 @@
       "type": "Economics"
     },
     {
-      "id": 29,
-      "img": "/assets/images/One Hundred Years of Solitude.jpg",
+      "id": 28,
+      "img": "../assets/images/One Hundred Years of Solitude.jpg",
       "title": "One Hundred Years of Solitude",
       "long_description": "One Hundred Years of Solitude is a 1967 novel by the Colombian author Gabriel García Márquez. It tells the story of the Buendía family over the course of a century. The novel is set in the fictional town of Macondo, which is isolated from the rest of the world. The Buendías experience a variety of magical and surreal events over the course of the novel. One Hundred Years of Solitude is considered to be one of the greatest novels of the 20th century. It has been praised for its magical realism, its complex characters, and its beautiful prose. The novel has won numerous awards, including the Nobel Prize in Literature in 1982.",
       "author": "Gabriel García Márquez",
       "year": 1967,
       "pages": 417,
       "rating": 4.5,
-      "type": "Fiction"
+      "type": "History"
     },
     {
-      "id": 30,
-      "img": "/assets/images/The Three-Body Problem.jpg",
+      "id": 29,
+      "img": "../assets/images/The Three-Body Problem.jpg",
       "title": "The Three-Body Problem",
       "long_description": "The Three-Body Problem is the first book in the Remembrance of Earth's Past trilogy by Chinese science fiction author Liu Cixin. The novel tells the story of humanity's first contact with an alien civilization. The book was first published in China in 2006 and was translated into English in 2014. It won the Hugo Award for Best Novel in 2015. The Three-Body Problem is a complex and thought-provoking novel that explores themes of science, philosophy, and history. It is a must-read for fans of hard science fiction.",
       "author": "Liu Cixin",
       "year": 2006,
       "pages": 396,
       "rating": 4.5,
-      "type": "Science Fiction"
+      "type": "Science"
     },
     {
-      "id": 31,
-      "img": "/assets/images/A People's History.jpg",
-      "title": "A People's History of the United States: 1492-Present",
-      "long_description": "A People's History of the United States: 1492-Present is a 2010 book by Howard Zinn, a historian and political activist. The book is a popular history book that tells the story of the United States from the perspective of the working class and other marginalized groups. Zinn challenges the traditional narrative of American history, which he argues is too focused on the achievements of the elite. A People's History of the United States is a must-read for anyone who wants to understand the real history of the United States.",
+      "id": 30,
+      "img": "../assets/images/where the crawdads.jpg",
+      "title": "Where the Crawdads Sing",
+      "long_description": "Where the Crawdads Sing is a novel by Delia Owens. It follows the story of Kya Clark, known as the \"Marsh Girl,\" who grows up in a shack out in the marshes of a small town. The book explores her coming-of-age, her connection with nature, and a mysterious death that occurs in the town.",
       "author": "Howard Zinn",
-      "year": 2010,
+      "year": 2022,
       "pages": 720,
       "rating": 4.5,
       "type": "History"
     },
     {
-      "id": 32,
-      "img": "/assets/images/Freakonomics A Rogue Economist Explores the Hidden Side of Everything.jpg",
-      "title": "Freakonomics",
-      "long_description": "Freakonomics is a 2005 book by Steven D. Levitt and Stephen J. Dubner. The book is a popular economics book that uses real-world examples to explain complex economic concepts. Levitt and Dubner cover a wide range of topics in the book, including the economics of cheating, the economics of sumo wrestling, and the economics of real estate. Freakonomics is a must-read for anyone who wants to understand how economics works in the real world.",
+      "id": 31,
+      "img": "../assets/images/The Great Gatsby.jpg",
+      "title": "The Great Gatsby",
+      "long_description": "The Great Gatsby is a classic novel written by F. Scott Fitzgerald. Set in the Roaring Twenties, the story follows Jay Gatsby, a mysterious millionaire, and his pursuit of wealth, love.",
       "author": "Steven D. Levitt and Stephen J. Dubner",
       "year": 2005,
       "pages": 288,
@@ -353,296 +342,271 @@
       "type": "Economics"
     },
     {
-      "id": 33,
-      "img": "/assets/images/To Kill a Mockingbird.jpg",
-      "title": "To Kill a Mockingbird",
-      "long_description": "To Kill a Mockingbird is a 1960 novel by Harper Lee. The book is set in the American South during the Great Depression. It tells the story of Scout Finch, a young girl who learns about racism and injustice when her father, Atticus Finch, defends a black man who has been falsely accused of rape. To Kill a Mockingbird is a must-read for anyone who wants to understand the American South during the Jim Crow era. It is also a classic coming-of-age story about a young girl who learns about the world around her.",
+      "id": 32,
+      "img": "../assets/images/the nightingale.jpg",
+      "title": "The Nightingale",
+      "long_description": "The Nightingale is a historical fiction novel by Kristin Hannah. Set during World War II in France, the story revolves around two sisters, Vianne and Isabelle, and their struggle to survive and resist the German occupation of France. The novel explores themes of love, sacrifice.",
       "author": "Harper Lee",
       "year": 1960,
       "pages": 281,
       "rating": 4.6,
-      "type": "Fiction"
+      "type": "Economic"
     },
     {
-      "id": 34,
-      "img": "/assets/images/The Lord of the Rings.jpg",
-      "title": "The Midnight Library",
-      "author": "Matt Haig",
-      "year": 2020,
-      "pages": 304,
-      "type": "Fiction",
-      "rating": 4.5,
-      "long_description": "The Midnight Library is a novel about a woman named Nora Seed who is given the opportunity to live all the lives she could have lived, if she had made different choices. Nora is a successful woman on the outside, but she is deeply unhappy inside. She feels like she has made all the wrong choices in her life, and she regrets everything. One night, Nora attempts suicide, but she wakes up in a magical library where she can choose to live any life she wants. Nora must decide whether she wants to keep living her current life, or if she wants to start over and live a different one."
-    },
-    {
-      "id": 35,
-      "img": "/assets/images/The Hitchhiker's Guide to the Galaxy.jpg",
-      "title": "The Invisible Life of Addie LaRue",
+      "id": 33,
+      "img": "../assets/images/the hobbit.jpg",
+      "title": "The Hobbit",
       "author": "V.E. Schwab",
       "year": 2020,
       "pages": 448,
-      "type": "Fiction",
+      "type": "Economic",
       "rating": 4.5,
-      "long_description": "The Invisible Life of Addie LaRue is a novel about a woman named Addie LaRue who makes a deal with the devil to live forever. Addie gets everything she has ever wanted: beauty, wealth, and eternal life. But there is a catch: no one will ever remember her. Addie is invisible to the world, and she is doomed to spend eternity alone. The novel follows Addie's journey through the centuries as she tries to find meaning in her life, despite her curse."
+      "long_description": "The Hobbit is a fantasy novel by J.R.R. Tolkien. It follows the journey of Bilbo Baggins, a hobbit who is reluctantly recruited to assist a group of dwarves in their quest to reclaim their homeland from the dragon Smaug."
     },
     {
-      "id": 36,
-      "img": "/assets/images/The Hitchhiker's Guide to the Galaxy.jpg",
-      "title": "Mexican Gothic",
-      "author": "Silvia Moreno-Garcia",
-      "year": 2020,
-      "pages": 304,
-      "type": "Fiction",
-      "rating": 4.5,
-      "long_description": "Mexican Gothic is a novel about a young woman named Noemí Taboada who is sent to investigate her cousin's mysterious illness. Noemí is a socialite who has never left the city, and she is unprepared for the horrors that await her at High Place, her cousin's ancestral home. High Place is a decaying mansion that is rumored to be haunted by the ghosts of the family's past. As Noemí investigates her cousin's illness, she uncovers the dark secrets of the Doyle family and the house they call home."
-    },
-    {
-      "id": 37,
-      "img": "/assets/images/Thinking, Fast and Slow.jpg",
-      "title": "A Psalm for the Wild-Built",
-      "author": "Becky Chambers",
-      "year": 2020,
-      "pages": 160,
-      "type": "Fiction",
-      "rating": 4.5,
-      "long_description": "A Psalm for the Wild-Built is a novel about a tea monk named Sibling Dex who travels from town to town, offering tea and conversation to anyone who needs it. One day, Sibling Dex meets a robot named Mosscap who is on a journey to find the meaning of life. Sibling Dex and Mosscap become friends, and they travel together through a world that is slowly healing from a devastating war. A Psalm for the Wild-Built is a gentle and heartwarming novel about friendship, community, and the power of tea."
-    },
-    {
-      "id": 38,
-      "img": "",
+      "id": 34,
+      "img": "../assets/images/The Ninth Life of Liu Bei.jpg",
       "title": "The Ninth Life of Liu Bei",
       "long_description": "The Ninth Life of Liu Bei is a novel about the life of Liu Bei, a Chinese warlord who lived during the Three Kingdoms period. The novel follows Liu Bei's journey from a humble peasant to the Emperor of Shu. Liu Bei was a complex and fascinating figure, and the novel does a masterful job of capturing his personality and his motivations. The Ninth Life of Liu Bei is a must-read for any fan of historical fiction.",
       "author": "Ma Jian",
       "year": 2023,
       "pages": 480,
-      "type": "Fiction",
+      "type": "Story",
       "rating": 4.5
     },
     {
-      "id": 39,
-      "img": "/assets/images/Seven Brief Lessons on Physics.jpg",
+      "id": 35,
+      "img": "../assets/images/The Book of Form and Emptiness.jpg",
       "title": "The Book of Form and Emptiness",
       "long_description": "The Book of Form and Emptiness is a novel about a young woman named Benny Oh who is struggling with grief and loss. Benny's mother has recently passed away, and Benny is feeling lost and alone. She begins to have visions of her mother, and she starts to see the world in a new way. The Book of Form and Emptiness is a beautiful and moving novel about grief, loss, and the power of imagination.",
       "author": "Ruth Ozeki",
       "year": 2023,
       "pages": 384,
-      "type": "Fiction",
+      "type": "History",
       "rating": 4.5
     },
     {
-      "id": 40,
-      "img": "/assets/images/Freakonomics A Rogue Economist Explores the Hidden Side of Everything.jpg",
+      "id": 36,
+      "img": "../assets/images/The Marriage Portrait.jpg",
       "title": "The Marriage Portrait",
       "long_description": "The Marriage Portrait is a novel about a young woman named Lucrezia de' Medici who is married to a wealthy merchant. Lucrezia is a beautiful and intelligent woman, but she is also unhappy in her marriage. She feels trapped in her role as a wife and mother, and she longs for more. The Marriage Portrait is a dark and suspenseful novel about betrayal, revenge, and the power of art.",
       "author": "Maggie O'Farrell",
       "year": 2023,
       "pages": 320,
-      "type": "Fiction",
-      "rating": 4.5
+      "type": "History",
+      "rating": 5
     },
     {
-      "id": 41,
-      "img": "/assets/images/The Hitchhiker's Guide to the Galaxy.jpg",
+      "id": 37,
+      "img": "../assets/images/Lessons in Chemistry.jpg",
       "title": "Lessons in Chemistry",
       "long_description": "Lessons in Chemistry is a novel about a young woman named Elizabeth Zott who is a chemist and a television cooking show host. Elizabeth is a brilliant scientist, but she is also a feminist and a social activist. She uses her television show to teach women about chemistry and to empower them to live their lives to the fullest. Lessons in Chemistry is a funny and heartwarming novel about love, science, and the power of women.",
       "author": "Bonnie Garmus",
       "year": 2023,
       "pages": 368,
-      "type": "Fiction",
+      "type": "Story",
       "rating": 4.5
     },
     {
-      "id": 42,
-      "img": "/assets/images/The Hitchhiker's Guide to the Galaxy.jpg",
+      "id": 38,
+      "img": "../assets/images/The Candy House.jpg",
       "title": "The Candy House",
       "long_description": "The Candy House is a novel about a family who is struggling to cope with the loss of their child. The family's daughter, Bix, was abducted when she was a child, and she has never been found. The family is haunted by Bix's disappearance, and they are all struggling to move on with their lives. The Candy House is a powerful and moving novel about grief, loss, and the hope of finding closure.",
       "author": "Jennifer Egan",
       "year": 2023,
       "pages": 432,
-      "type": "Fiction",
+      "type": "Story",
       "rating": 4.5
     },
     {
-      "id": 43,
-      "img": "",
-      "title": "The House in the Cerulean Sea",
-      "long_description": "The Sixth Extinction: An Unnatural History is a book about the sixth mass extinction that is currently happening on Earth. Elizabeth Kolbert argues in the book that the current mass extinction is the worst in the history of the planet, and that it is entirely human-caused. Kolbert explores the causes of the current mass extinction, and she looks at the ways in which it is impacting the planet and its inhabitants. The Sixth Extinction is a sobering but important book that everyone should read.",
+      "id": 39,
+      "img": "../assets/images/The Silent patient.jpg",
+      "title": "The Silent Patient",
+      "long_description": "The Silent Patient is a psychological thriller novel written by Alex Michaelides. It tells the story of Alicia Berenson, a woman who shoots her husband and then stops speaking. The novel explores the mystery of Alicia's silence and the psychotherapist's attempt to unravel the truth.",
       "author": "Elizabeth Kolbert",
       "year": 2014,
       "pages": 319,
-      "type": "Non-Fiction",
+      "type": "History",
       "rating": 4.5
     },
     {
-      "id": 44,
-      "img": "/assets/images/The Undercover Economist Strikes Back.jpg",
+      "id": 40,
+      "img": "../assets/images/The Invisible Life of Addie LaRue fd.jpg",
       "title": "The Invisible Life of Addie LaRue",
       "author": "V.E. Schwab",
       "year": 2020,
       "pages": 448,
-      "type": "Fiction",
+      "type": "Economic",
       "rating": 5,
       "long_description": "A young woman makes a deal with the devil to live forever, but at a price: no one will ever remember her. She must find meaning in her life despite her curse, and she must learn to love herself even when no one else does."
     },
     {
-      "id": 45,
-      "img": "/assets/images/Thinking, Fast and Slow.jpg",
+      "id": 41,
+      "img": "../assets/images/The House in the Cerulean Sea.jpg",
       "title": "The House in the Cerulean Sea",
       "author": "T.J. Klune",
       "year": 2020,
       "pages": 394,
-      "type": "Fiction",
+      "type": "Science",
       "rating": 5,
       "long_description": "A social worker is sent to investigate a magical orphanage for children with extraordinary abilities. He quickly falls in love with the children and the orphanage's director, and he must learn to accept the magic in his life."
     },
     {
-      "id": 46,
-      "img": "/assets/images/To Kill a Mockingbird.jpg",
+      "id": 42,
+      "img": "../assets/images/A Psalm for the Wild-Built dd.jpg",
       "title": "A Psalm for the Wild-Built",
       "author": "Becky Chambers",
       "year": 2020,
       "pages": 160,
-      "type": "Fiction",
+      "type": "Science",
       "rating": 5,
       "long_description": "A tea monk travels from town to town, offering tea and conversation to anyone who needs it. One day, she meets a robot who is on a journey to find the meaning of life. Together, they travel through a world that is slowly healing from a devastating war."
     },
     {
-      "id": 47,
-      "img": "/assets/images/A History of the World in 6 Glasses.jpg",
+      "id": 43,
+      "img": "../assets/images/the Maxican Gothic.jpg",
       "title": "Mexican Gothic",
       "author": "Silvia Moreno-Garcia",
       "year": 2020,
       "pages": 304,
-      "type": "Fiction",
+      "type": "Science",
       "rating": 5,
       "long_description": "A young woman is sent to investigate her cousin's mysterious illness at her ancestral home. She soon discovers that the house is haunted by the ghosts of the family's past, and she must uncover the dark secrets of the Doyle family in order to save her cousin."
     },
     {
-      "id": 48,
-      "img": "/assets/images/Astrophysics for People in a Hurry.jpg",
+      "id": 44,
+      "img": "../assets/images/The Midnight Library.jpg",
       "title": "The Midnight Library",
       "author": "Matt Haig",
       "year": 2020,
       "pages": 304,
-      "type": "Fiction",
+      "type": "Science",
       "rating": 5,
       "long_description": "A woman who attempts suicide wakes up in a magical library where she can choose to live any life she wants. She must decide whether she wants to keep living her current life, or if she wants to start over and live a different one."
     },
     {
-      "id": 49,
-      "img": "/assets/images/A People's History.jpg",
+      "id": 45,
+      "img": "../assets/images/The Netanyahus.jpg",
       "title": "The Netanyahus",
       "author": "Joshua Cohen",
       "year": 2022,
       "pages": 336,
-      "type": "Fiction",
+      "type": "Economic",
       "rating": 4.5,
       "prize": "1",
       "description": "The Netanyahus is a satirical novel about the Netanyahu family, a prominent Israeli political family. The novel is told from the perspective of Ruben Blum, a fictional American Jewish writer who is invited to Israel to write a biography of Benzion Netanyahu, the father of Israeli Prime Minister Benjamin Netanyahu. Blum arrives in Israel to find that Benzion is not the man he expected. Benzion is a brilliant but eccentric scholar who is more interested in his own ideas than in the truth. Blum also finds himself drawn to Benzion's wife, Cela, a beautiful and mysterious woman."
     },
     {
-      "id": 50,
-      "img": "/assets/images/The Martian.jpg",
+      "id": 46,
+      "img": "../assets/images/Tomb of Sand.jpg",
       "title": "Tomb of Sand",
       "author": "Geetanjali Shree",
       "translator": "Daisy Rockwell",
       "year": 2022,
       "pages": 240,
-      "type": "Fiction",
+      "type": "Economic",
       "rating": 4.5,
       "prize": "1",
       "long_description": "An elderly woman named Ma, who has always been the anchor for her family, is suddenly overcome with a strange restlessness. She refuses to leave her bed and insists on traveling alone to Pakistan. Her son, Pran, is forced to confront the secrets of his childhood and the choices he has made as he tries to understand his mother's decision in this poignant and moving novel."
     },
     {
-      "id": 51,
-      "img": "/assets/images/One Hundred Years of Solitude.jpg",
+      "id": 47,
+      "img": "../assets/images/The Rabbit Hutch.jpg",
       "title": "The Rabbit Hutch",
       "author": "Tess Gunty",
       "year": 2022,
       "pages": 384,
-      "type": "Fiction",
+      "type": "Economic",
       "rating": 4.5,
       "prize": "1",
       "long_description": "Set in working-class New England, The Rabbit Hutch tells the story of a group of young people living in a low-income housing complex. The novel follows their struggles and triumphs as they navigate the challenges of poverty, violence, and addiction. The Rabbit Hutch is a powerful and moving novel that gives voice to the voiceless and offers a glimpse into the lives of those who are often overlooked."
     },
     {
-      "id": 52,
-      "img": "/assets/images/The Martian.jpg",
+      "id": 48,
+      "img": "../assets/images/All This Could Be Different.jpg",
       "title": "All This Could Be Different",
       "author": "Sarah Thankam Mathews",
       "year": 2022,
       "pages": 288,
-      "type": "Non-Fiction",
+      "type": "Story",
       "rating": 4.5,
       "prize": "1",
       "long_description": "All This Could Be Different is a collection of essays that explore the intersection of race, gender, and class in America. The essays are personal and insightful, and they offer a unique perspective on the challenges and opportunities facing women of color in today's society. All This Could Be Different is a must-read for anyone interested in social justice and the experiences of women of color."
     },
     {
-      "id": 53,
-      "img": "/assets/images/Freakonomics A Rogue Economist Explores the Hidden Side of Everything.jpg",
+      "id": 49,
+      "img": "../assets/images/The Haunting of Hajji Hotak and Other Stories.jpg",
       "title": "The Haunting of Hajji Hotak and Other Stories",
       "author": "Jamil Jan Kochai",
       "year": 2022,
       "pages": 256,
-      "type": "Fiction",
+      "type": "Story",
       "rating": 4.5,
       "prize": "1",
       "long_description": "The Haunting of Hajji Hotak and Other Stories is a collection of short stories that explore the lives of Afghans living in exile. The stories are both heartbreaking and hopeful, and they offer a glimpse into the challenges and triumphs of those who have been forced to leave their home country. The Haunting of Hajji Hotak and Other Stories is a must-read for anyone interested in Afghan literature and the experiences of refugees."
+    },
+    {
+      "id": 50,
+      "img": "../assets/images/brave new world.jpg",
+      "title": "Brave New World",
+      "long_description": "Brave New World is a dystopian novel by Aldous Huxley. Set in a futuristic world where technology and conditioning control society, the novel explores themes of conformity, freedom, and the cost of progress. It follows the lives of characters caught in a dehumanizing society where individuality is sacrificed for stability.",
+      "author": "Aldous Huxley",
+      "year": 1932,
+      "pages": 288,
+      "type": "Economic",
+      "rating": 4.4
     }
   ],
   "users": [
     {
-      "id": 1,
-      "first-name": "mothana almajali",
-      "last-name": "almajali",
-      "email": "mothana@gmail.com",
-      "password": "13245",
-      "addres": "zarqa",
-      "wishlist": "[1,2,3,4,5,6,7,8,9]"
+      "firstName": "ayoub",
+      "lastName": "Husein",
+      "userName": "ayoub Husein",
+      "email": "ayoubabdulrahmanhusein@gmail.com",
+      "password": "fgjncfc",
+      "address": "ngnfgncg",
+      "agree": "on",
+      "id": 1
     },
     {
-      "firstName": "mothana",
-      "lastName": "majali",
-      "userName": "mothana majali",
+      "firstName": "ayoub",
+      "lastName": "Husein",
+      "userName": "shahed",
       "email": "mothana@gmail.com",
-      "password": "359157",
+      "password": "123456",
       "address": "zarqa",
       "agree": "on",
-      "id": 2,
-      "wishlist": "[1,2,3,4,5,6,7,8,9]"
+      "id": 2
     },
     {
-      "firstName": "mothana",
-      "lastName": "majali",
-      "userName": "mothana majali",
-      "email": "mothana@gmail.com",
-      "password": "359157",
+      "firstName": "bbb",
+      "lastName": "bbb",
+      "userName": "bbb bbb",
+      "email": "bbb@gmail.com",
+      "password": "0000000",
       "address": "zarqa",
       "agree": "on",
-      "id": 3,
-      "wishlist": "[1,2,3,4,5,6,7,8,9]"
+      "id": 3
     },
     {
-      "firstName": "mothana",
-      "lastName": "majali",
-      "userName": "mothana majali",
-      "email": "mothana@gmail.com",
-      "password": "369369369",
+      "firstName": "zzz",
+      "lastName": "zzz",
+      "userName": "zzz zzz",
+      "email": "zzz@gmail.com",
+      "password": "0000000",
       "address": "zarqa",
       "agree": "on",
-      "id": 4,
-      "wishlist": "[1,2,3,4,5,6,7,8,9]"
+      "id": 4
     },
     {
-      "firstName": "mo",
-      "lastName": "mo",
-      "userName": "mo mo",
-      "email": "mo@gmail.com",
-      "password": "369369369",
-      "address": "zarqa",
+      "firstName": "",
+      "lastName": "",
+      "userName": " ",
+      "email": "",
+      "password": "",
+      "address": "",
       "agree": "on",
-      "id": 5,
-      "wishlist": "[1,2,3,4,5,6,7,8,9]"
+      "id": 5
     }
   ],
   "comments": [
@@ -650,91 +614,55 @@
       "id": 1,
       "booknumber": "1",
       "comment": "mycomment",
+      "useremail": "mothana@gmail.com",
       "username": "mothana"
-    },
-    {
-      "id": 5,
-      "booknumber": "46",
-      "comment": "asdsafdf",
-      "useremail": "from--section",
-      "username": "fromsession"
-    },
-    {
-      "id": 6,
-      "booknumber": "6",
-      "comment": "edit",
-      "username": "mothana"
-    },
-    {
-      "id": 7,
-      "booknumber": "7",
-      "comment": "edit",
-      "username": "mothana"
-    },
-    {
-      "id": 8,
-      "booknumber": "8",
-      "comment": "edit",
-      "username": "mothana"
-    },
-    {
-      "id": 9,
-      "booknumber": "51",
-      "comment": "",
-      "useremail": "from--section",
-      "username": "fromsession"
-    }
-  ],
-  "profile": [
-    {
-      "name": "typicode"
-    }
-  ],
-  "wishlist": [
-    {
-      "id": 1,
-      "bookid": "1",
-      "user": "useremail"
     },
     {
       "id": 2,
-      "bookid": "51",
-      "user": "useremail"
-    },
-    {
-      "id": 3,
-      "bookid": "51",
-      "user": "useremail"
+      "comment": "some 2 comment",
+      "commentId": 1
     },
     {
       "id": 4,
-      "bookid": "51",
-      "user": "useremail"
+      "booknumber": "51",
+      "comment": "dflkbnldfb\n"
     },
     {
       "id": 5,
-      "bookid": "1",
-      "user": "useremail"
+      "booknumber": "49",
+      "comment": "llllllll"
     },
     {
       "id": 6,
-      "bookid": "1",
-      "user": "useremail"
-    },
-    {
-      "id": 7,
-      "bookid": "1",
-      "user": "useremail"
+      "booknumber": "46",
+      "comment": "sdgsgsdgfd"
     },
     {
       "id": 8,
-      "bookid": "1",
-      "user": "useremail"
+      "booknumber": "45",
+      "comment": "sfdbsdvb"
     },
     {
-      "id": 9,
-      "bookid": "1",
-      "user": "useremail"
+      "id": 10,
+      "booknumber": "48",
+      "comment": ""
+    },
+    {
+      "id": 11,
+      "booknumber": "3",
+      "comment": "goos book",
+      "useremail": "from--section",
+      "username": "fromsession"
+    },
+    {
+      "id": 12,
+      "booknumber": "2",
+      "comment": "wow amazing book",
+      "useremail": "from--section",
+      "username": "fromsession"
     }
-  ]
+  ],
+  "profile": {
+    "name": "typicode"
+  }
 }
